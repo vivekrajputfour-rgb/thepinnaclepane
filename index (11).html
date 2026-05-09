@@ -1,0 +1,3303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- ============================================================
+       SEO META TAGS
+       HOW TO UPDATE: Change the content="..." values below
+       ============================================================ -->
+  <title>The Pinnacle Pane | Supreme Griham Authorised Channel Partner – Gurugram & Delhi</title>
+  <meta name="description" content="The Pinnacle Pane is an authorised Supreme Griham channel partner in Gurugram & Delhi offering premium uPVC doors and windows. Free home visit, measurement & quote. Call +91 9711454647." />
+  <meta name="keywords" content="Supreme Griham dealer Gurugram, uPVC windows Delhi, uPVC doors Gurgaon, The Pinnacle Pane, Supreme uPVC dealer, uPVC sliding doors, casement windows Gurgaon, DecoShield uPVC" />
+  <meta name="author" content="The Pinnacle Pane" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://thepinnaclepane.com/" />
+
+  <!-- Open Graph (for WhatsApp/Facebook link previews) -->
+  <meta property="og:title" content="The Pinnacle Pane | Supreme Griham Authorised Channel Partner" />
+  <meta property="og:description" content="Premium uPVC doors & windows in Gurugram & Delhi. Authorised Supreme Griham channel partner." />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://thepinnaclepane.com/" />
+
+  <!-- ============================================================
+       FONTS — Google Fonts (loaded externally, no weight on server)
+       ============================================================ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ============================================================
+       CSS CUSTOM PROPERTIES (DESIGN TOKENS)
+       HOW TO UPDATE: Change values here to retheme the entire site
+       ============================================================ */
+    :root {
+      --gold:        #C9A84C;
+      --gold-light:  #E8C97A;
+      --gold-dark:   #8B6914;
+      --cream:       #FAF7F0;
+      --cream-dark:  #F0EAD8;
+      --cream-mid:   #EDE5D0;
+      --text-dark:   #1A1508;
+      --text-mid:    #4A3F28;
+      --text-light:  #7A6A4A;
+      --white:       #FFFFFF;
+      --shadow:      0 8px 40px rgba(139, 105, 20, 0.12);
+      --shadow-lg:   0 20px 60px rgba(139, 105, 20, 0.18);
+      --radius:      4px;
+      --font-display: 'Cormorant Garamond', Georgia, serif;
+      --font-body:    'Jost', sans-serif;
+      --transition:  all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    /* ============================================================
+       RESET & BASE
+       ============================================================ */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      background: var(--cream);
+      color: var(--text-dark);
+      overflow-x: hidden;
+      line-height: 1.7;
+    }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    /* ============================================================
+       UTILITY CLASSES
+       ============================================================ */
+    section[id] {
+      scroll-margin-top: 90px; /* accounts for sticky navbar height */
+    }
+    .container {
+      max-width: 1240px;
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    .section-pad { padding: 100px 0; }
+    .section-pad-sm { padding: 70px 0; }
+    .gold-line {
+      display: block;
+      width: 60px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--gold-dark), var(--gold-light));
+      margin: 20px auto 32px;
+    }
+    .gold-line.left { margin-left: 0; }
+    .section-label {
+      font-family: var(--font-body);
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 4px;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+    .section-title {
+      font-family: var(--font-display);
+      font-size: clamp(32px, 5vw, 52px);
+      font-weight: 600;
+      color: var(--text-dark);
+      line-height: 1.2;
+    }
+    .section-subtitle {
+      font-size: 16px;
+      color: var(--text-light);
+      max-width: 620px;
+      line-height: 1.8;
+    }
+    .text-center { text-align: center; }
+    .text-center .section-subtitle { margin: 0 auto; }
+
+    /* Fade-in animation on scroll */
+    .fade-in {
+      opacity: 0;
+      transform: translateY(30px);
+      transition: opacity 0.7s ease, transform 0.7s ease;
+    }
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* ============================================================
+       GOLD DIVIDER ORNAMENT
+       ============================================================ */
+    .ornament {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 16px;
+      margin: 20px 0 36px;
+    }
+    .ornament::before, .ornament::after {
+      content: '';
+      flex: 1;
+      max-width: 80px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold));
+    }
+    .ornament::after {
+      background: linear-gradient(90deg, var(--gold), transparent);
+    }
+    .ornament-diamond {
+      width: 8px;
+      height: 8px;
+      background: var(--gold);
+      transform: rotate(45deg);
+    }
+
+    /* ============================================================
+       BUTTONS
+       ============================================================ */
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 32px;
+      font-family: var(--font-body);
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      cursor: pointer;
+      border: none;
+      transition: var(--transition);
+      border-radius: var(--radius);
+    }
+    .btn-gold {
+      background: linear-gradient(135deg, var(--gold-dark) 0%, var(--gold) 50%, var(--gold-light) 100%);
+      color: var(--white);
+      box-shadow: 0 4px 20px rgba(201,168,76,0.4);
+    }
+    .btn-gold:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 30px rgba(201,168,76,0.5);
+    }
+    .btn-outline {
+      background: transparent;
+      color: var(--gold);
+      border: 1.5px solid var(--gold);
+    }
+    .btn-outline:hover {
+      background: var(--gold);
+      color: var(--white);
+    }
+    .btn-whatsapp {
+      background: #25D366;
+      color: white;
+      box-shadow: 0 4px 20px rgba(37,211,102,0.3);
+    }
+    .btn-whatsapp:hover {
+      background: #1ebe5d;
+      transform: translateY(-2px);
+    }
+
+    /* ============================================================
+       TOP BAR
+       ============================================================ */
+    .top-bar {
+      background: var(--text-dark);
+      color: var(--cream-dark);
+      font-size: 12px;
+      letter-spacing: 0.5px;
+      padding: 8px 0;
+    }
+    .top-bar .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+    .top-bar a { color: var(--gold-light); }
+    .top-bar a:hover { color: var(--gold); }
+    .top-bar-right { display: flex; gap: 20px; align-items: center; }
+
+    /* ============================================================
+       NAVIGATION
+       ============================================================ */
+    .navbar {
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+      background: rgba(250, 247, 240, 0.96);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid rgba(201,168,76,0.2);
+      box-shadow: 0 2px 20px rgba(139,105,20,0.08);
+      transition: var(--transition);
+    }
+    .navbar.scrolled {
+      background: rgba(250, 247, 240, 0.99);
+      box-shadow: 0 4px 30px rgba(139,105,20,0.12);
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 80px;
+    }
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-left: -12px; /* shift slightly left */
+    }
+    .nav-logo img {
+      height: 72px;         /* fits neatly inside 80px navbar */
+      width: auto;
+      object-fit: contain;
+      mix-blend-mode: multiply; /* removes white background */
+      transition: transform 0.3s ease;
+    }
+    .nav-logo img:hover { transform: scale(1.03); }
+    /* If logo image not available, show text fallback */
+    .nav-logo-text {
+      display: none; /* shown via JS if img fails */
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+    }
+    .nav-links a {
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--text-mid);
+      position: relative;
+      transition: color 0.3s;
+    }
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -4px;
+      left: 0;
+      width: 0;
+      height: 1.5px;
+      background: var(--gold);
+      transition: width 0.3s;
+    }
+    .nav-links a:hover { color: var(--gold-dark); }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-cta { display: flex; gap: 12px; align-items: center; }
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+    }
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--text-dark);
+      transition: var(--transition);
+    }
+    .hamburger.open span:nth-child(1) { transform: rotate(45deg) translate(5px, 5px); }
+    .hamburger.open span:nth-child(2) { opacity: 0; }
+    .hamburger.open span:nth-child(3) { transform: rotate(-45deg) translate(5px, -5px); }
+    .mobile-menu {
+      display: none;
+      flex-direction: column;
+      background: var(--cream);
+      border-top: 1px solid var(--cream-mid);
+      padding: 20px 24px;
+      gap: 20px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      font-size: 15px;
+      font-weight: 500;
+      color: var(--text-mid);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 8px 0;
+      border-bottom: 1px solid var(--cream-mid);
+    }
+
+    /* ============================================================
+       HERO SECTION
+       HOW TO UPDATE: Change hero-bg gradient or add a real image
+       ============================================================ */
+    .hero {
+      position: relative;
+      min-height: 92vh;
+      display: flex;
+      align-items: center;
+      overflow: hidden;
+      background: linear-gradient(135deg, #FAF7F0 0%, #F0E8D0 40%, #E8DCC0 100%);
+    }
+    .hero-pattern {
+      position: absolute;
+      inset: 0;
+      opacity: 0.04;
+      background-image:
+        repeating-linear-gradient(0deg, var(--gold-dark) 0px, transparent 1px, transparent 60px, var(--gold-dark) 61px),
+        repeating-linear-gradient(90deg, var(--gold-dark) 0px, transparent 1px, transparent 60px, var(--gold-dark) 61px);
+    }
+    .hero-glow {
+      position: absolute;
+      top: -20%;
+      right: -10%;
+      width: 600px;
+      height: 600px;
+      background: radial-gradient(circle, rgba(201,168,76,0.15) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-glow-2 {
+      position: absolute;
+      bottom: -20%;
+      left: -10%;
+      width: 400px;
+      height: 400px;
+      background: radial-gradient(circle, rgba(201,168,76,0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 700px;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(201,168,76,0.12);
+      border: 1px solid rgba(201,168,76,0.3);
+      padding: 8px 18px;
+      border-radius: 50px;
+      font-size: 12px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold-dark);
+      margin-bottom: 28px;
+    }
+    .hero-badge::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: var(--gold);
+      border-radius: 50%;
+    }
+    /* Supreme Griham trust badge in hero */
+    .hero-supreme-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 14px;
+      background: rgba(255,255,255,0.6);
+      backdrop-filter: blur(8px);
+      border: 1px solid rgba(201,168,76,0.3);
+      padding: 10px 20px 10px 12px;
+      border-radius: 50px;
+      margin-bottom: 28px;
+    }
+    .hero-supreme-logo {
+      height: 44px;
+      width: auto;
+      object-fit: contain;
+      mix-blend-mode: multiply;
+    }
+    .hero-supreme-label {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold-dark);
+    }
+    .hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(42px, 7vw, 82px);
+      font-weight: 300;
+      line-height: 1.1;
+      color: var(--text-dark);
+      margin-bottom: 8px;
+    }
+    .hero h1 em {
+      font-style: italic;
+      color: var(--gold-dark);
+    }
+    .hero h1 strong {
+      font-weight: 700;
+      display: block;
+    }
+    .hero-sub {
+      font-size: 17px;
+      color: var(--text-light);
+      max-width: 520px;
+      margin: 20px 0 40px;
+      line-height: 1.8;
+    }
+    .hero-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      align-items: center;
+    }
+    .hero-stats {
+      display: flex;
+      gap: 40px;
+      margin-top: 56px;
+      padding-top: 40px;
+      border-top: 1px solid rgba(201,168,76,0.2);
+      flex-wrap: wrap;
+    }
+    .hero-stat-num {
+      font-family: var(--font-display);
+      font-size: 36px;
+      font-weight: 600;
+      color: var(--gold-dark);
+      line-height: 1;
+    }
+    .hero-stat-label {
+      font-size: 12px;
+      color: var(--text-light);
+      letter-spacing: 1px;
+      margin-top: 4px;
+    }
+    /* Hero right visual */
+    .hero-visual {
+      position: absolute;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      width: 45%;
+      overflow: hidden;
+    }
+    .hero-visual-inner {
+      width: 100%;
+      height: 100%;
+      background: linear-gradient(160deg, #E8DCC0 0%, #D4C090 100%);
+      clip-path: polygon(8% 0, 100% 0, 100% 100%, 0% 100%);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .hero-visual-card {
+      background: rgba(255,255,255,0.5);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(201,168,76,0.3);
+      border-radius: 12px;
+      padding: 32px 28px;
+      max-width: 280px;
+      margin-left: 60px;
+      box-shadow: var(--shadow-lg);
+    }
+    .hero-visual-card h3 {
+      font-family: var(--font-display);
+      font-size: 22px;
+      color: var(--text-dark);
+      margin-bottom: 16px;
+    }
+    .hero-card-feature {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 13px;
+      color: var(--text-mid);
+      padding: 8px 0;
+      border-bottom: 1px solid rgba(201,168,76,0.15);
+    }
+    .hero-card-feature:last-child { border-bottom: none; }
+    .hero-card-feature::before {
+      content: '✦';
+      color: var(--gold);
+      font-size: 10px;
+      flex-shrink: 0;
+    }
+    .hero-warranty {
+      margin-top: 16px;
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      color: white;
+      padding: 12px 16px;
+      border-radius: 8px;
+      font-size: 13px;
+      font-weight: 500;
+      text-align: center;
+    }
+
+    /* Floating WhatsApp */
+    .whatsapp-float {
+      position: fixed;
+      bottom: 28px;
+      right: 28px;
+      z-index: 9999;
+      background: #25D366;
+      color: white;
+      width: 58px;
+      height: 58px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 20px rgba(37,211,102,0.4);
+      transition: var(--transition);
+      animation: pulse-wa 2s infinite;
+    }
+    .whatsapp-float:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 30px rgba(37,211,102,0.5);
+    }
+    .whatsapp-float svg { width: 30px; height: 30px; }
+    @keyframes pulse-wa {
+      0%, 100% { box-shadow: 0 4px 20px rgba(37,211,102,0.4); }
+      50%       { box-shadow: 0 4px 30px rgba(37,211,102,0.7), 0 0 0 8px rgba(37,211,102,0.1); }
+    }
+
+    /* ============================================================
+       TRUST BAR
+       ============================================================ */
+    .trust-bar {
+      background: var(--text-dark);
+      padding: 20px 0;
+      overflow: hidden;
+    }
+    .trust-bar-inner {
+      display: flex;
+      gap: 0;
+      animation: scroll-x 30s linear infinite;
+      width: max-content;
+    }
+    .trust-item {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 0 48px;
+      white-space: nowrap;
+      font-size: 13px;
+      color: var(--cream-dark);
+      letter-spacing: 1px;
+    }
+    .trust-item span { color: var(--gold); font-weight: 600; }
+    .trust-dot {
+      width: 4px;
+      height: 4px;
+      background: var(--gold);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    @keyframes scroll-x {
+      from { transform: translateX(0); }
+      to   { transform: translateX(-50%); }
+    }
+
+    /* ============================================================
+       ABOUT SECTION
+       ============================================================ */
+    .about { background: var(--white); }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .about-visual {
+      position: relative;
+    }
+    .about-img-main {
+      width: 100%;
+      aspect-ratio: 4/5;
+      background: linear-gradient(145deg, var(--cream-mid) 0%, var(--cream-dark) 100%);
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      border: 1px solid rgba(201,168,76,0.2);
+      /* TO UPDATE: Replace background with: background-image: url('your-photo.jpg'); background-size: cover; */
+    }
+    .about-img-placeholder {
+      text-align: center;
+      padding: 40px;
+    }
+    .about-img-placeholder .about-logo-big {
+      font-family: var(--font-display);
+      font-size: 72px;
+      color: var(--gold);
+      opacity: 0.4;
+      line-height: 1;
+    }
+    .about-img-placeholder p {
+      font-size: 12px;
+      color: var(--text-light);
+      letter-spacing: 1px;
+      margin-top: 12px;
+    }
+    .about-badge-card {
+      position: absolute;
+      bottom: 32px;
+      right: -24px;
+      background: var(--white);
+      border: 1px solid rgba(201,168,76,0.25);
+      padding: 20px 24px;
+      border-radius: 8px;
+      box-shadow: var(--shadow);
+      text-align: center;
+    }
+    .about-badge-num {
+      font-family: var(--font-display);
+      font-size: 40px;
+      font-weight: 700;
+      color: var(--gold-dark);
+      line-height: 1;
+    }
+    .about-badge-text {
+      font-size: 12px;
+      color: var(--text-light);
+      letter-spacing: 1px;
+      margin-top: 4px;
+    }
+    .about-content { }
+    .about-features {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin-top: 36px;
+    }
+    .about-feature {
+      background: var(--cream);
+      border: 1px solid rgba(201,168,76,0.15);
+      padding: 20px;
+      border-radius: var(--radius);
+      transition: var(--transition);
+    }
+    .about-feature:hover {
+      border-color: var(--gold);
+      box-shadow: var(--shadow);
+      transform: translateY(-2px);
+    }
+    .about-feature-icon { font-size: 22px; margin-bottom: 8px; }
+    .about-feature-title {
+      font-size: 14px;
+      font-weight: 600;
+      color: var(--text-dark);
+      margin-bottom: 4px;
+    }
+    .about-feature-text { font-size: 13px; color: var(--text-light); }
+
+    /* ============================================================
+       PRODUCTS SECTION
+       HOW TO UPDATE: Edit the product cards in the HTML below
+       ============================================================ */
+    .products { background: var(--cream); }
+    .products-tabs {
+      display: flex;
+      gap: 0;
+      margin: 40px auto 60px;
+      max-width: 400px;
+      background: var(--cream-mid);
+      padding: 4px;
+      border-radius: 50px;
+      border: 1px solid rgba(201,168,76,0.2);
+    }
+    .products-tab {
+      flex: 1;
+      text-align: center;
+      padding: 12px 28px;
+      font-size: 13px;
+      font-weight: 500;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      cursor: pointer;
+      border-radius: 50px;
+      transition: var(--transition);
+      color: var(--text-light);
+    }
+    .products-tab.active {
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      color: white;
+      box-shadow: 0 4px 15px rgba(201,168,76,0.35);
+    }
+    .products-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+    .product-panel { display: none; }
+    .product-panel.active { display: block; }
+    .product-card {
+      background: var(--white);
+      border: 1px solid rgba(201,168,76,0.15);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+    .product-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--gold);
+    }
+    .product-img {
+      aspect-ratio: 4/3;
+      overflow: hidden;
+      position: relative;
+    }
+    /* Product image placeholders — replace with real img tags */
+    .product-img-bg {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      transition: transform 0.5s ease;
+    }
+    .product-card:hover .product-img-bg { transform: scale(1.05); }
+    .product-img-bg.c1 { background: linear-gradient(135deg, #E8DCC0, #D4C090); }
+    .product-img-bg.c2 { background: linear-gradient(135deg, #D4C090, #C4A870); }
+    .product-img-bg.c3 { background: linear-gradient(135deg, #C4A870, #B49050); }
+    .product-img-bg.c4 { background: linear-gradient(135deg, #EAE0C8, #D8CC98); }
+    .product-img-bg.c5 { background: linear-gradient(135deg, #D8CC98, #C8BC78); }
+    .product-img-bg.c6 { background: linear-gradient(135deg, #E0D4B0, #CCB880); }
+    /* Tag on product image */
+    .product-tag {
+      position: absolute;
+      top: 14px;
+      left: 14px;
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      color: white;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 50px;
+    }
+    .product-body { padding: 22px 24px; }
+    .product-name {
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--text-dark);
+      margin-bottom: 8px;
+    }
+    .product-desc { font-size: 13px; color: var(--text-light); line-height: 1.7; }
+    .product-features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      margin-top: 14px;
+    }
+    .product-feature-pill {
+      font-size: 11px;
+      background: var(--cream);
+      color: var(--gold-dark);
+      border: 1px solid rgba(201,168,76,0.25);
+      padding: 3px 10px;
+      border-radius: 50px;
+    }
+    .product-enquire {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-top: 18px;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--gold-dark);
+      transition: gap 0.3s;
+    }
+    .product-card:hover .product-enquire { gap: 10px; }
+
+    /* ============================================================
+       TECHNOLOGIES / USP SECTION
+       ============================================================ */
+    .technologies { background: var(--text-dark); }
+    .tech-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1px;
+      background: rgba(201,168,76,0.1);
+      margin-top: 60px;
+      border: 1px solid rgba(201,168,76,0.1);
+    }
+    .tech-card {
+      background: var(--text-dark);
+      padding: 48px 40px;
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .tech-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0;
+      width: 3px; height: 0;
+      background: linear-gradient(180deg, var(--gold), var(--gold-light));
+      transition: height 0.4s ease;
+    }
+    .tech-card:hover { background: rgba(201,168,76,0.04); }
+    .tech-card:hover::before { height: 100%; }
+    .tech-icon {
+      font-size: 36px;
+      margin-bottom: 20px;
+      display: block;
+    }
+    .tech-name {
+      font-family: var(--font-display);
+      font-size: 26px;
+      color: var(--gold-light);
+      margin-bottom: 12px;
+    }
+    .tech-tag {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold);
+      background: rgba(201,168,76,0.12);
+      border: 1px solid rgba(201,168,76,0.25);
+      padding: 3px 10px;
+      border-radius: 50px;
+      margin-bottom: 14px;
+    }
+    .tech-desc { font-size: 14px; color: rgba(250,247,240,0.6); line-height: 1.8; }
+    .tech-bullets { margin-top: 16px; }
+    .tech-bullet {
+      font-size: 13px;
+      color: rgba(250,247,240,0.55);
+      display: flex;
+      gap: 8px;
+      margin-bottom: 6px;
+    }
+    .tech-bullet::before { content: '—'; color: var(--gold); flex-shrink: 0; }
+
+    /* ============================================================
+       BENEFITS SECTION
+       ============================================================ */
+    .benefits { background: var(--white); }
+    .benefits-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 28px;
+      margin-top: 60px;
+    }
+    .benefit-card {
+      text-align: center;
+      padding: 36px 24px;
+      background: var(--cream);
+      border: 1px solid rgba(201,168,76,0.12);
+      border-radius: 8px;
+      transition: var(--transition);
+      position: relative;
+    }
+    .benefit-card:hover {
+      transform: translateY(-6px);
+      box-shadow: var(--shadow);
+      border-color: var(--gold);
+    }
+    .benefit-icon {
+      width: 64px;
+      height: 64px;
+      margin: 0 auto 20px;
+      background: linear-gradient(135deg, rgba(201,168,76,0.15), rgba(201,168,76,0.05));
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 26px;
+    }
+    .benefit-name {
+      font-family: var(--font-display);
+      font-size: 18px;
+      color: var(--text-dark);
+      margin-bottom: 8px;
+    }
+    .benefit-desc { font-size: 13px; color: var(--text-light); line-height: 1.7; }
+
+    /* ============================================================
+       PROCESS SECTION
+       ============================================================ */
+    .process { background: var(--cream); }
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 0;
+      margin-top: 60px;
+      position: relative;
+    }
+    .process-steps::before {
+      content: '';
+      position: absolute;
+      top: 36px;
+      left: calc(100% / 14);
+      right: calc(100% / 14);
+      height: 1px;
+      background: linear-gradient(90deg, var(--gold-dark), var(--gold), var(--gold-dark));
+    }
+    .process-step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 8px;
+    }
+    .process-num {
+      width: 72px;
+      height: 72px;
+      border-radius: 50%;
+      border: 2px solid var(--gold);
+      background: var(--white);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: var(--font-display);
+      font-size: 22px;
+      font-weight: 600;
+      color: var(--gold-dark);
+      position: relative;
+      z-index: 1;
+      transition: var(--transition);
+      margin-bottom: 20px;
+    }
+    .process-step:hover .process-num {
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      color: white;
+    }
+    .process-step-name {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      color: var(--text-dark);
+      margin-bottom: 6px;
+    }
+    .process-step-desc { font-size: 11px; color: var(--text-light); line-height: 1.6; }
+
+    /* ============================================================
+       TESTIMONIALS — YouTube thumbnail cards
+       HOW TO UPDATE: Replace VIDEO_ID in each card's href and img src
+       Thumbnail URL: https://img.youtube.com/vi/VIDEO_ID/maxresdefault.jpg
+       ============================================================ */
+    .testimonials { background: var(--text-dark); }
+    .testimonials .section-title { color: var(--cream); }
+    .testimonials .section-label { color: var(--gold); }
+    .testimonials .section-subtitle { color: rgba(250,247,240,0.6); }
+    .videos-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      margin-top: 60px;
+    }
+    .video-card {
+      display: block; /* essential — <a> tags are inline by default, breaks grid */
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(201,168,76,0.15);
+      border-radius: 8px;
+      overflow: hidden;
+      transition: var(--transition);
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+    }
+    .video-card:hover {
+      border-color: rgba(201,168,76,0.5);
+      box-shadow: 0 8px 40px rgba(0,0,0,0.35);
+      transform: translateY(-4px);
+    }
+    .video-thumb-wrap {
+      position: relative;
+      height: 160px;
+      overflow: hidden;
+    }
+    .video-thumb-wrap img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+    .video-card:hover .video-thumb-wrap img { transform: scale(1.05); }
+    .video-thumb-wrap::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: rgba(10,8,4,0.38);
+      transition: background 0.3s;
+    }
+    .video-card:hover .video-thumb-wrap::after { background: rgba(10,8,4,0.2); }
+    .video-play-btn {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 2;
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 4px 24px rgba(0,0,0,0.5);
+      transition: var(--transition);
+    }
+    .video-card:hover .video-play-btn {
+      transform: translate(-50%, -50%) scale(1.12);
+      box-shadow: 0 8px 32px rgba(201,168,76,0.55);
+    }
+    .video-play-btn svg {
+      width: 16px;
+      height: 16px;
+      fill: white;
+      margin-left: 3px;
+    }
+    .video-body {
+      padding: 14px 16px 16px;
+    }
+    .video-label {
+      font-size: 10px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 6px;
+    }
+    .video-title {
+      font-family: var(--font-display);
+      font-size: 15px;
+      color: var(--cream);
+      line-height: 1.3;
+      margin-bottom: 10px;
+    }
+    .video-watch-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      transition: gap 0.3s;
+    }
+    .video-card:hover .video-watch-btn { gap: 14px; }
+
+
+    /* ============================================================
+       WHY CHOOSE US
+       ============================================================ */
+    .why-us { background: var(--cream); }
+    .why-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .why-features { display: flex; flex-direction: column; gap: 24px; }
+    .why-feature {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+      padding: 24px;
+      background: var(--white);
+      border: 1px solid rgba(201,168,76,0.12);
+      border-radius: 8px;
+      transition: var(--transition);
+    }
+    .why-feature:hover {
+      border-color: var(--gold);
+      box-shadow: var(--shadow);
+    }
+    .why-feature-num {
+      font-family: var(--font-display);
+      font-size: 36px;
+      font-weight: 700;
+      color: rgba(201,168,76,0.2);
+      line-height: 1;
+      flex-shrink: 0;
+      width: 48px;
+    }
+    .why-feature-body { }
+    .why-feature-title {
+      font-weight: 600;
+      font-size: 15px;
+      color: var(--text-dark);
+      margin-bottom: 6px;
+    }
+    .why-feature-text { font-size: 13px; color: var(--text-light); line-height: 1.7; }
+    .why-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .why-stat {
+      background: var(--white);
+      border: 1px solid rgba(201,168,76,0.15);
+      border-radius: 8px;
+      padding: 32px 24px;
+      text-align: center;
+      transition: var(--transition);
+    }
+    .why-stat:hover { border-color: var(--gold); box-shadow: var(--shadow); }
+    .why-stat-num {
+      font-family: var(--font-display);
+      font-size: 44px;
+      font-weight: 700;
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold-light));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      line-height: 1;
+    }
+    .why-stat-label {
+      font-size: 13px;
+      color: var(--text-light);
+      margin-top: 8px;
+    }
+    .supreme-badge {
+      margin-top: 20px;
+      background: var(--text-dark);
+      border-radius: 8px;
+      padding: 24px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+    .supreme-badge-icon {
+      width: 52px;
+      height: 52px;
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      flex-shrink: 0;
+    }
+    .supreme-badge-text { color: var(--cream); font-size: 14px; line-height: 1.6; }
+    .supreme-badge-text strong { color: var(--gold-light); }
+
+    /* ============================================================
+       CONTACT SECTION
+       HOW TO UPDATE: Replace phone, email, address in HTML below
+       ============================================================ */
+    .contact { background: var(--white); }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 80px;
+      align-items: start;
+    }
+    .contact-info { }
+    .contact-detail {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      margin-bottom: 28px;
+      padding-bottom: 28px;
+      border-bottom: 1px solid var(--cream-mid);
+    }
+    .contact-detail:last-of-type { border-bottom: none; }
+    .contact-detail-icon {
+      width: 44px;
+      height: 44px;
+      background: linear-gradient(135deg, rgba(201,168,76,0.15), rgba(201,168,76,0.05));
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      flex-shrink: 0;
+    }
+    .contact-detail-label {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+    .contact-detail-value {
+      font-size: 15px;
+      color: var(--text-dark);
+      line-height: 1.6;
+    }
+    .contact-detail-value a { color: var(--text-dark); transition: color 0.3s; }
+    .contact-detail-value a:hover { color: var(--gold-dark); }
+    .contact-form-wrap {
+      background: var(--cream);
+      border: 1px solid rgba(201,168,76,0.15);
+      border-radius: 8px;
+      padding: 40px;
+    }
+    .contact-form-title {
+      font-family: var(--font-display);
+      font-size: 28px;
+      color: var(--text-dark);
+      margin-bottom: 28px;
+    }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+    .form-group { margin-bottom: 20px; }
+    .form-label {
+      display: block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: var(--text-light);
+      margin-bottom: 8px;
+    }
+    .form-input, .form-select, .form-textarea {
+      width: 100%;
+      padding: 13px 16px;
+      font-family: var(--font-body);
+      font-size: 14px;
+      color: var(--text-dark);
+      background: var(--white);
+      border: 1px solid rgba(201,168,76,0.2);
+      border-radius: var(--radius);
+      outline: none;
+      transition: border-color 0.3s;
+    }
+    .form-input:focus, .form-select:focus, .form-textarea:focus {
+      border-color: var(--gold);
+      box-shadow: 0 0 0 3px rgba(201,168,76,0.08);
+    }
+    .form-textarea { resize: vertical; min-height: 110px; }
+    .form-submit {
+      width: 100%;
+      padding: 16px;
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      color: white;
+      border: none;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .form-submit:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 24px rgba(201,168,76,0.4);
+    }
+    .form-note {
+      font-size: 12px;
+      color: var(--text-light);
+      text-align: center;
+      margin-top: 12px;
+    }
+    /* Map */
+    .map-wrap {
+      margin-top: 32px;
+      border-radius: 8px;
+      overflow: hidden;
+      border: 1px solid rgba(201,168,76,0.2);
+    }
+    .map-wrap iframe { display: block; width: 100%; height: 240px; border: none; }
+
+    /* ============================================================
+       FOOTER
+       HOW TO UPDATE: Edit links & social handles below
+       ============================================================ */
+    .footer { background: var(--text-dark); color: rgba(250,247,240,0.6); }
+    .footer-top {
+      padding: 72px 0 48px;
+      display: grid;
+      grid-template-columns: 1.5fr 1fr 1fr 1fr;
+      gap: 48px;
+    }
+    .footer-brand { }
+    .footer-logo { height: 56px; width: auto; margin-bottom: 20px; filter: brightness(1.1); }
+    .footer-brand-text { font-size: 13px; line-height: 1.8; color: rgba(250,247,240,0.55); }
+    .footer-social {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+    }
+    .footer-social-link {
+      width: 36px;
+      height: 36px;
+      background: rgba(201,168,76,0.1);
+      border: 1px solid rgba(201,168,76,0.2);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 14px;
+      color: var(--gold);
+      transition: var(--transition);
+    }
+    .footer-social-link:hover { background: var(--gold); color: white; }
+    .footer-col-title {
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 20px;
+    }
+    .footer-links { display: flex; flex-direction: column; gap: 12px; }
+    .footer-links a {
+      font-size: 13px;
+      color: rgba(250,247,240,0.55);
+      transition: color 0.3s;
+    }
+    .footer-links a:hover { color: var(--gold-light); }
+    .footer-bottom {
+      border-top: 1px solid rgba(201,168,76,0.1);
+      padding: 20px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 12px;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+    .footer-bottom-right { display: flex; gap: 20px; }
+    .footer-bottom-right a { color: rgba(250,247,240,0.4); transition: color 0.3s; }
+    .footer-bottom-right a:hover { color: var(--gold); }
+    .supreme-certified {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(201,168,76,0.08);
+      border: 1px solid rgba(201,168,76,0.2);
+      padding: 8px 16px;
+      border-radius: 50px;
+      font-size: 12px;
+      color: var(--gold-light);
+      margin-top: 16px;
+    }
+
+    /* ============================================================
+       RESPONSIVE — MOBILE FIRST BREAKPOINTS
+       ============================================================ */
+    @media (max-width: 1024px) {
+      .hero-visual { display: none; }
+      .hero-content { max-width: 100%; }
+      .about-grid { grid-template-columns: 1fr; gap: 48px; }
+      .about-badge-card { right: 0; }
+      .products-grid { grid-template-columns: repeat(2, 1fr); }
+      .tech-grid { grid-template-columns: 1fr; }
+      .benefits-grid { grid-template-columns: repeat(2, 1fr); }
+      .process-steps { grid-template-columns: repeat(4, 1fr); gap: 16px; }
+      .process-steps::before { display: none; }
+      .videos-grid { grid-template-columns: repeat(2, 1fr); }
+      .why-grid { grid-template-columns: 1fr; gap: 48px; }
+      .contact-grid { grid-template-columns: 1fr; gap: 40px; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 768px) {
+      .section-pad { padding: 70px 0; }
+      .nav-links, .nav-cta { display: none; }
+      .hamburger { display: flex; }
+      .top-bar .container { justify-content: center; }
+      .top-bar-right { display: none; }
+      .hero { min-height: 80vh; }
+      .hero-stats { gap: 24px; }
+      .products-tabs { max-width: 100%; }
+      .benefits-grid { grid-template-columns: 1fr 1fr; }
+      .process-steps { grid-template-columns: repeat(2, 1fr); }
+      .form-row { grid-template-columns: 1fr; }
+      .contact-form-wrap { padding: 28px 20px; }
+      .footer-top { grid-template-columns: 1fr; gap: 32px; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+
+      /* ── MOBILE SWIPE CAROUSELS ── */
+
+      /* Products — horizontal swipe */
+      .products-grid {
+        display: flex !important;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 16px;
+        padding-bottom: 16px;
+        /* hide scrollbar but keep functionality */
+        scrollbar-width: none;
+      }
+      .products-grid::-webkit-scrollbar { display: none; }
+      .products-grid .product-card {
+        flex: 0 0 78vw;
+        max-width: 320px;
+        scroll-snap-align: start;
+      }
+
+      /* Gallery — horizontal swipe */
+      .gallery-grid {
+        columns: unset !important;
+        display: flex !important;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 12px;
+        padding-bottom: 16px;
+        scrollbar-width: none;
+      }
+      .gallery-grid::-webkit-scrollbar { display: none; }
+      .gallery-grid .gallery-item {
+        flex: 0 0 72vw;
+        max-width: 280px;
+        scroll-snap-align: start;
+        margin-bottom: 0;
+        height: 200px;
+      }
+      .gallery-grid .gallery-item img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      /* Videos — horizontal swipe */
+      .videos-grid {
+        display: flex !important;
+        overflow-x: auto;
+        scroll-snap-type: x mandatory;
+        -webkit-overflow-scrolling: touch;
+        gap: 16px;
+        padding-bottom: 16px;
+        scrollbar-width: none;
+        margin-top: 36px;
+      }
+      .videos-grid::-webkit-scrollbar { display: none; }
+      .videos-grid .video-card {
+        flex: 0 0 80vw;
+        max-width: 300px;
+        scroll-snap-align: start;
+      }
+
+      /* Swipe hint label shown below each carousel */
+      .swipe-hint {
+        display: flex !important;
+      }
+    }
+    @media (max-width: 480px) {
+      .hero h1 { font-size: 38px; }
+      .benefits-grid { grid-template-columns: 1fr; }
+      .why-stats { grid-template-columns: 1fr; }
+      .about-features { grid-template-columns: 1fr; }
+    }
+
+    /* Swipe hint — hidden on desktop, shown on mobile */
+    .swipe-hint {
+      display: none;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+      font-size: 12px;
+      color: var(--text-light);
+      letter-spacing: 1px;
+      margin-top: 12px;
+      opacity: 0.7;
+    }
+    .swipe-hint-dark {
+      color: rgba(250,247,240,0.45);
+    }
+
+    /* ============================================================
+       LIGHTBOX — image zoom on click
+       ============================================================ */
+    .lightbox-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      z-index: 99999;
+      background: rgba(10,8,4,0.92);
+      align-items: center;
+      justify-content: center;
+      animation: fadeIn 0.25s ease;
+    }
+    .lightbox-overlay.open { display: flex; }
+    .lightbox-inner {
+      position: relative;
+      max-width: 90vw;
+      max-height: 90vh;
+      animation: zoomIn 0.3s cubic-bezier(0.4,0,0.2,1);
+    }
+    .lightbox-inner img {
+      max-width: 90vw;
+      max-height: 85vh;
+      object-fit: contain;
+      border-radius: 8px;
+      box-shadow: 0 30px 80px rgba(0,0,0,0.7);
+      display: block;
+    }
+    .lightbox-caption {
+      text-align: center;
+      color: rgba(250,247,240,0.7);
+      font-size: 14px;
+      margin-top: 14px;
+      font-family: var(--font-display);
+      font-style: italic;
+    }
+    .lightbox-close {
+      position: absolute;
+      top: -40px;
+      right: 0;
+      color: rgba(250,247,240,0.7);
+      font-size: 28px;
+      cursor: pointer;
+      line-height: 1;
+      transition: color 0.2s;
+    }
+    .lightbox-close:hover { color: var(--gold); }
+    .lightbox-nav {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(201,168,76,0.15);
+      border: 1px solid rgba(201,168,76,0.3);
+      color: var(--gold-light);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      cursor: pointer;
+      transition: background 0.2s;
+    }
+    .lightbox-nav:hover { background: rgba(201,168,76,0.35); }
+    .lightbox-prev { left: -60px; }
+    .lightbox-next { right: -60px; }
+    @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+    @keyframes zoomIn { from { transform: scale(0.88); opacity: 0; } to { transform: scale(1); opacity: 1; } }
+    /* Product image — show zoom cursor */
+    .product-img { cursor: zoom-in; }
+    .product-img img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.5s ease;
+      display: block;
+    }
+    .product-card:hover .product-img img { transform: scale(1.06); }
+    @media (max-width: 768px) {
+      .lightbox-prev { left: -20px; }
+      .lightbox-next { right: -20px; }
+    }
+    /* ============================================================
+       GALLERY SECTION
+       HOW TO UPDATE: Add/remove .gallery-item divs in the HTML below
+       To add your own photos later: replace the src URLs with your image links
+       Filter categories: data-cat="windows" | "doors" | "lifestyle"
+       ============================================================ */
+    .gallery { background: var(--white); }
+    .gallery-filters {
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+      margin: 40px 0 48px;
+      flex-wrap: wrap;
+    }
+    .gallery-filter-btn {
+      padding: 9px 24px;
+      font-family: var(--font-body);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border: 1.5px solid rgba(201,168,76,0.3);
+      background: transparent;
+      color: var(--text-light);
+      border-radius: 50px;
+      cursor: pointer;
+      transition: var(--transition);
+    }
+    .gallery-filter-btn:hover { border-color: var(--gold); color: var(--gold-dark); }
+    .gallery-filter-btn.active {
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      border-color: transparent;
+      color: white;
+      box-shadow: 0 4px 16px rgba(201,168,76,0.35);
+    }
+    .gallery-grid {
+      columns: 4;
+      column-gap: 14px;
+    }
+    .gallery-item {
+      break-inside: avoid;
+      margin-bottom: 14px;
+      border-radius: 6px;
+      overflow: hidden;
+      position: relative;
+      cursor: zoom-in;
+      border: 1px solid rgba(201,168,76,0.1);
+      transition: var(--transition);
+    }
+    .gallery-item img {
+      width: 100%;
+      display: block;
+      transition: transform 0.5s ease;
+    }
+    .gallery-item:hover { box-shadow: var(--shadow-lg); border-color: var(--gold); }
+    .gallery-item:hover img { transform: scale(1.06); }
+    .gallery-item-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(139,105,20,0);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+    }
+    .gallery-item:hover .gallery-item-overlay {
+      background: rgba(139,105,20,0.2);
+    }
+    .gallery-zoom-icon {
+      width: 44px;
+      height: 44px;
+      background: rgba(255,255,255,0.9);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      opacity: 0;
+      transform: scale(0.7);
+      transition: var(--transition);
+    }
+    .gallery-item:hover .gallery-zoom-icon { opacity: 1; transform: scale(1); }
+    .gallery-item.hidden { display: none; }
+    .gallery-item.show { display: block; }
+    .gallery-load-wrap { text-align: center; margin-top: 48px; }
+    @media (max-width: 1024px) { .gallery-grid { columns: 3; } }
+    @media (max-width: 768px)  { .gallery-grid { columns: 2; } }
+    @media (max-width: 480px)  { .gallery-grid { columns: 1; } }
+
+    /* ============================================================
+       BROCHURE / CATALOGUE BUTTON
+       HOW TO UPDATE: Change the Google Drive link in the HTML below
+       ============================================================ */
+    .brochure-bar {
+      background: var(--cream-mid);
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: 8px;
+      padding: 28px 36px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+      margin-top: 56px;
+      flex-wrap: wrap;
+    }
+    .brochure-bar-left {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+    }
+    .brochure-icon {
+      width: 52px;
+      height: 52px;
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      border-radius: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      flex-shrink: 0;
+    }
+    .brochure-title {
+      font-family: var(--font-display);
+      font-size: 20px;
+      font-weight: 600;
+      color: var(--text-dark);
+    }
+    .brochure-subtitle {
+      font-size: 13px;
+      color: var(--text-light);
+      margin-top: 3px;
+    }
+    .btn-brochure {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      padding: 13px 28px;
+      font-family: var(--font-body);
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      border: 1.5px solid var(--gold);
+      color: var(--gold-dark);
+      background: transparent;
+      border-radius: var(--radius);
+      cursor: pointer;
+      transition: var(--transition);
+      white-space: nowrap;
+    }
+    .btn-brochure:hover {
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      color: white;
+      border-color: transparent;
+      box-shadow: 0 6px 24px rgba(201,168,76,0.35);
+      transform: translateY(-2px);
+    }
+    @media (max-width: 640px) {
+      .brochure-bar { flex-direction: column; align-items: flex-start; }
+      .btn-brochure { width: 100%; justify-content: center; }
+    }
+    .form-success {
+      display: none;
+      background: rgba(37,211,102,0.1);
+      border: 1px solid rgba(37,211,102,0.3);
+      color: #1a6b38;
+      padding: 16px;
+      border-radius: var(--radius);
+      text-align: center;
+      font-size: 14px;
+      margin-top: 12px;
+    }
+
+    /* Back to top */
+    .back-top {
+      position: fixed;
+      bottom: 100px;
+      right: 28px;
+      z-index: 999;
+      width: 44px;
+      height: 44px;
+      background: var(--gold);
+      color: white;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      opacity: 0;
+      pointer-events: none;
+      transition: var(--transition);
+      cursor: pointer;
+    }
+    .back-top.visible { opacity: 1; pointer-events: all; }
+    .back-top:hover { background: var(--gold-dark); transform: translateY(-3px); }
+  </style>
+</head>
+<body>
+
+  <!-- ============================================================
+       FLOATING WHATSAPP BUTTON
+       HOW TO UPDATE: Change the phone number in the href
+       ============================================================ -->
+  <a class="whatsapp-float" href="https://wa.me/919711454647?text=Hi%2C%20I%27m%20interested%20in%20Supreme%20Griham%20uPVC%20doors%20%26%20windows.%20Please%20share%20details." target="_blank" rel="noopener" aria-label="Chat on WhatsApp">
+    <svg viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <!-- Back to top -->
+  <div class="back-top" id="backTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</div>
+
+  <!-- ============================================================
+       TOP BAR
+       HOW TO UPDATE: Change phone/email/hours here
+       ============================================================ -->
+  <div class="top-bar">
+    <div class="container">
+      <span>📍 Authorised Supreme Griham Channel Partner — Gurugram & Delhi NCR</span>
+      <div class="top-bar-right">
+        <a href="tel:+919711454647">📞 +91 97114 54647</a>
+        <a href="mailto:thepinnaclepane@gmail.com">✉ thepinnaclepane@gmail.com</a>
+        <span>Mon–Sat: 9am – 7pm</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       NAVIGATION
+       HOW TO UPDATE: Add/remove nav links in the <ul> below
+       ============================================================ -->
+  <nav class="navbar" id="navbar">
+    <div class="container">
+      <div class="nav-inner">
+        <a href="#home" class="nav-logo">
+          <!-- ======================================================
+               LOGO IMAGE
+               HOW TO UPDATE: Replace the src with your logo file path
+               For GitHub Pages: upload logo to repo root & use: src="logo.png"
+               ====================================================== -->
+          <img src="logo.png"
+               alt="The Pinnacle Pane Logo"
+               id="navLogo"
+               onerror="this.style.display='none'; document.getElementById('navLogoText').style.display='flex';" />
+          <div id="navLogoText" class="nav-logo-text" style="display:none; align-items:center; gap:10px;">
+            <div style="width:44px;height:44px;background:linear-gradient(135deg,#8B6914,#C9A84C);border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:20px;">🏛</div>
+            <div>
+              <div style="font-family:var(--font-display);font-size:18px;font-weight:700;color:var(--gold-dark);letter-spacing:1px;">THE PINNACLE PANE</div>
+              <div style="font-size:10px;letter-spacing:2px;color:var(--text-light);text-transform:uppercase;">Supreme Door & Window Solutions</div>
+            </div>
+          </div>
+        </a>
+        <div class="nav-links">
+          <a href="#about">About</a>
+          <a href="#products">Products</a>
+          <a href="#technologies">Technology</a>
+          <a href="#benefits">Benefits</a>
+          <a href="#gallery">Gallery</a>
+          <a href="#testimonials">Stories</a>
+          <a href="#contact">Contact</a>
+        </div>
+        <div class="nav-cta">
+          <a href="#contact" class="btn btn-gold" style="padding:10px 20px;font-size:12px;">Free Home Visit</a>
+        </div>
+        <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#about" onclick="closeMobileMenu()">About</a>
+      <a href="#products" onclick="closeMobileMenu()">Products</a>
+      <a href="#technologies" onclick="closeMobileMenu()">Technology</a>
+      <a href="#benefits" onclick="closeMobileMenu()">Benefits</a>
+      <a href="#gallery" onclick="closeMobileMenu()">Gallery</a>
+      <a href="#testimonials" onclick="closeMobileMenu()">Customer Stories</a>
+      <a href="#contact" onclick="closeMobileMenu()">Contact</a>
+      <a href="https://wa.me/919711454647" target="_blank" class="btn btn-whatsapp" style="text-align:center;margin-top:8px;">💬 WhatsApp Us</a>
+    </div>
+  </nav>
+
+  <!-- ============================================================
+       HERO SECTION
+       HOW TO UPDATE: Change headline, subheading, badge text
+       ============================================================ -->
+  <section class="hero" id="home">
+    <div class="hero-pattern"></div>
+    <div class="hero-glow"></div>
+    <div class="hero-glow-2"></div>
+    <div class="container">
+      <div class="hero-content fade-in">
+
+        <!-- Supreme Griham authorised partner badge — hero section -->
+        <div class="hero-supreme-badge">
+          <img src="supreme-logo.png"
+               alt="Supreme Griham Authorised Channel Partner"
+               class="hero-supreme-logo"
+               onerror="this.parentElement.style.display='none'" />
+          <div class="hero-supreme-text">
+            <div class="hero-supreme-label">Authorised Channel Partner</div>
+          </div>
+        </div>
+
+        <h1>
+          <em>Elevate</em> Your
+          <strong>Spaces with<br/>Supreme uPVC</strong>
+        </h1>
+        <p class="hero-sub">
+          Premium uPVC doors & windows crafted with European technology,
+          designed for Indian homes. Serving Gurugram & Delhi NCR with
+          free home visits, expert installation & 20-year warranty.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-gold">
+            📋 Get Free Quote
+          </a>
+          <a href="#products" class="btn btn-outline">Explore Products</a>
+        </div>
+        <div class="hero-stats">
+          <div>
+            <div class="hero-stat-num">20 Yr</div>
+            <div class="hero-stat-label">Profile Warranty</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">80+</div>
+            <div class="hero-stat-label">Years Supreme Legacy</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">ISO</div>
+            <div class="hero-stat-label">9001 · 14001 · 18001</div>
+          </div>
+          <div>
+            <div class="hero-stat-num">40dB</div>
+            <div class="hero-stat-label">Noise Reduction</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Hero right panel (desktop only) -->
+    <div class="hero-visual">
+      <div class="hero-visual-inner">
+        <div class="hero-visual-card fade-in" style="transition-delay:0.3s">
+          <h3>Why Pinnacle Pane?</h3>
+          <div class="hero-card-feature">Authorised Supreme Griham Channel Partner</div>
+          <div class="hero-card-feature">Free Home Visit & Measurement</div>
+          <div class="hero-card-feature">Expert Installation Team</div>
+          <div class="hero-card-feature">After-Sales Service Support</div>
+          <div class="hero-card-feature">Serving Gurugram & Delhi NCR</div>
+          <div class="hero-warranty">🛡 20 Year Profile Warranty</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TRUST BAR (scrolling ticker)
+       HOW TO UPDATE: Edit the trust-item text in the two groups
+       ============================================================ -->
+  <div class="trust-bar">
+    <div class="trust-bar-inner" id="trustBar">
+      <!-- Group 1 -->
+      <div class="trust-item"><span>Supreme Industries</span> — 80+ Years of Trust</div>
+      <div class="trust-dot"></div>
+      <div class="trust-item">ISO <span>9001 · 14001 · 18001</span> Certified</div>
+      <div class="trust-dot"></div>
+      <div class="trust-item"><span>DecoShield</span> Technology — First in India</div>
+      <div class="trust-dot"></div>
+      <div class="trust-item"><span>20 Year</span> Profile Warranty</div>
+      <div class="trust-dot"></div>
+      <div class="trust-item"><span>European</span> Machinery & Technology</div>
+      <div class="trust-dot"></div>
+      <div class="trust-item">Smart Lock & <span>Alexa Integration</span></div>
+      <div class="trust-dot"></div>
+      <div class="trust-item">Free Home Visit — <span>Gurugram & Delhi</span></div>
+      <div class="trust-dot"></div>
+      <div class="trust-item">Up to <span>40dB</span> Noise Reduction</div>
+      <div class="trust-dot"></div>
+      <!-- Group 2 (duplicate for infinite scroll) -->
+      <div class="trust-item"><span>Supreme Industries</span> — 80+ Years of Trust</div>
+      <div class="trust-dot"></div>
+      <div class="trust-item">ISO <span>9001 · 14001 · 18001</span> Certified</div>
+      <div class="trust-dot"></div>
+      <div class="trust-item"><span>DecoShield</span> Technology — First in India</div>
+      <div class="trust-dot"></div>
+      <div class="trust-item"><span>20 Year</span> Profile Warranty</div>
+      <div class="trust-dot"></div>
+      <div class="trust-item"><span>European</span> Machinery & Technology</div>
+      <div class="trust-dot"></div>
+      <div class="trust-item">Smart Lock & <span>Alexa Integration</span></div>
+      <div class="trust-dot"></div>
+      <div class="trust-item">Free Home Visit — <span>Gurugram & Delhi</span></div>
+      <div class="trust-dot"></div>
+      <div class="trust-item">Up to <span>40dB</span> Noise Reduction</div>
+      <div class="trust-dot"></div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       ABOUT SECTION
+       HOW TO UPDATE: Edit dealer name, story text, feature cards
+       ============================================================ -->
+  <section class="about section-pad" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-visual fade-in">
+          <div class="about-img-main">
+            <!-- ======================================================
+                 KARAN SINGH PHOTO
+                 HOW TO UPDATE: Upload karan.jpg to your GitHub repo
+                 then replace the src below with: src="karan.jpg"
+                 ====================================================== -->
+            <img
+              src="karan.jpg"
+              alt="Karan Singh — Founder, The Pinnacle Pane"
+              style="width:100%;height:100%;object-fit:cover;object-position:top center;"
+              onerror="this.style.display='none';document.getElementById('karanPlaceholder').style.display='flex';"
+            />
+            <div id="karanPlaceholder" style="display:none;flex-direction:column;align-items:center;justify-content:center;width:100%;height:100%;padding:40px;text-align:center;">
+              <div style="width:100px;height:100px;background:linear-gradient(135deg,var(--gold-dark),var(--gold));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:44px;margin-bottom:16px;">👤</div>
+              <div style="font-family:var(--font-display);font-size:22px;color:var(--text-dark);font-weight:600;">Karan Singh</div>
+              <div style="font-size:12px;color:var(--text-light);letter-spacing:2px;text-transform:uppercase;margin-top:4px;">Founder & Dealer</div>
+              <div style="font-size:12px;color:var(--text-light);margin-top:16px;font-style:italic;">Upload karan.jpg to show photo here</div>
+            </div>
+          </div>
+          <div class="about-badge-card">
+            <div class="about-badge-num">★ 5</div>
+            <div class="about-badge-text">Supreme Certified<br/>Channel Partner</div>
+          </div>
+        </div>
+        <div class="about-content fade-in" style="transition-delay:0.2s">
+          <span class="section-label">About Us</span>
+          <span class="gold-line left"></span>
+          <h2 class="section-title">Meet the Man Behind<br/><em style="font-style:italic;color:var(--gold-dark)">The Pinnacle Pane</em></h2>
+          <p class="section-subtitle" style="margin-top:20px;">
+            <strong>Karan Singh</strong> is the founder and authorised Supreme Griham channel partner behind The Pinnacle Pane — serving homeowners, builders, and architects across Gurugram & Delhi NCR. With a passion for quality living spaces, Karan personally oversees every project from first consultation to final installation.
+          </p>
+          <p class="section-subtitle" style="margin-top:16px;">
+            When you work with The Pinnacle Pane, you deal directly with Karan — no middlemen, no call centres. Just expert advice, honest pricing, and the full backing of Supreme Industries' 80-year legacy.
+          </p>
+          <div class="about-features">
+            <div class="about-feature">
+              <div class="about-feature-icon">🏠</div>
+              <div class="about-feature-title">Free Home Visit</div>
+              <div class="about-feature-text">We come to you, measure, advise & quote — at no cost.</div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🛡</div>
+              <div class="about-feature-title">20 Yr Warranty</div>
+              <div class="about-feature-text">Supreme-backed profile warranty with lifelong support.</div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">🔧</div>
+              <div class="about-feature-title">Expert Installation</div>
+              <div class="about-feature-text">Trained technicians ensure precision fitting every time.</div>
+            </div>
+            <div class="about-feature">
+              <div class="about-feature-icon">📞</div>
+              <div class="about-feature-title">After-Sales Care</div>
+              <div class="about-feature-text">We don't disappear after delivery. We're always reachable.</div>
+            </div>
+          </div>
+          <div style="margin-top:32px;">
+            <a href="#contact" class="btn btn-gold">Book Free Consultation</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PRODUCTS SECTION
+       HOW TO UPDATE: Add/edit product cards inside .windows-panel and .doors-panel
+       For real product images: replace .product-img-bg div with <img src="..." />
+       ============================================================ -->
+  <section class="products section-pad" id="products">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">Our Products</span>
+        <div class="ornament"><div class="ornament-diamond"></div></div>
+        <h2 class="section-title">Supreme Griham<br/>Collection</h2>
+        <p class="section-subtitle" style="margin-top:16px;">
+          A complete range of system doors and windows engineered for performance, style, and longevity — tailored for Indian homes and commercial spaces.
+        </p>
+      </div>
+      <!-- Swipe hint — only visible on mobile -->
+      <div class="swipe-hint">← Swipe to explore →</div>
+
+      <!-- Tab switcher -->
+      <div class="products-tabs">
+        <div class="products-tab active" onclick="switchTab('windows', this)">🪟 Windows</div>
+        <div class="products-tab" onclick="switchTab('doors', this)">🚪 Doors</div>
+      </div>
+
+      <!-- WINDOWS PANEL -->
+      <div class="product-panel active" id="panel-windows">
+        <div class="products-grid">
+          <!-- Window Card 1 — Slider Window -->
+          <div class="product-card fade-in">
+            <div class="product-img" onclick="openLightbox('https://www.supreme.co.in/uploads/images/fs75n7FD9luuKeh6sLAiLSm7XPaNVCHL7izSZdP4.jpg','Slider Window — Supreme Griham',0)">
+              <img src="https://www.supreme.co.in/uploads/images/fs75n7FD9luuKeh6sLAiLSm7XPaNVCHL7izSZdP4.jpg" alt="Supreme Griham Slider Window" loading="lazy" />
+              <div class="product-tag">Best Seller</div>
+            </div>
+            <div class="product-body">
+              <div class="product-name">Slider Window</div>
+              <div class="product-desc">Smooth horizontal sliding on precision roller system. Ideal for balconies, living rooms & spaces where swing windows won't fit.</div>
+              <div class="product-features">
+                <span class="product-feature-pill">2-Track</span>
+                <span class="product-feature-pill">3-Track</span>
+                <span class="product-feature-pill">Mesh Option</span>
+                <span class="product-feature-pill">Multi-lock</span>
+              </div>
+            </div>
+          </div>
+          <!-- Window Card 2 — Casement Window -->
+          <div class="product-card fade-in" style="transition-delay:0.1s">
+            <div class="product-img" onclick="openLightbox('https://www.supreme.co.in/uploads/images/a8hwVRhilS8HfjoqzCl3utuyOA0rXYMsOwCHo5Zc.png','Casement Window — Supreme Griham',1)">
+              <img src="https://www.supreme.co.in/uploads/images/a8hwVRhilS8HfjoqzCl3utuyOA0rXYMsOwCHo5Zc.png" alt="Supreme Griham Casement Window" loading="lazy" />
+              <div class="product-tag">Premium</div>
+            </div>
+            <div class="product-body">
+              <div class="product-name">Casement Window</div>
+              <div class="product-desc">Side-hinged with friction stays for controlled ventilation. Maximum airflow with superior weather sealing and security.</div>
+              <div class="product-features">
+                <span class="product-feature-pill">Single/Double</span>
+                <span class="product-feature-pill">Tilt & Turn</span>
+                <span class="product-feature-pill">DG Glass</span>
+              </div>
+            </div>
+          </div>
+          <!-- Window Card 3 — Tilt & Turn Window -->
+          <div class="product-card fade-in" style="transition-delay:0.2s">
+            <div class="product-img" onclick="openLightbox('https://www.supreme.co.in/uploads/images/9eNxH0tqeKH9GCq3OGB4XG5DdHLWyIuSxTW20f7k.png','Tilt & Turn Window — Supreme Griham',2)">
+              <img src="https://www.supreme.co.in/uploads/images/9eNxH0tqeKH9GCq3OGB4XG5DdHLWyIuSxTW20f7k.png" alt="Supreme Griham Tilt & Turn Window" loading="lazy" />
+              <div class="product-tag">European Design</div>
+            </div>
+            <div class="product-body">
+              <div class="product-name">Tilt & Turn Window</div>
+              <div class="product-desc">Opens in two ways — tilt inward for ventilation or turn like a casement. The most versatile window system from Europe.</div>
+              <div class="product-features">
+                <span class="product-feature-pill">Dual-function</span>
+                <span class="product-feature-pill">Burglar-proof</span>
+                <span class="product-feature-pill">Easy Clean</span>
+              </div>
+            </div>
+          </div>
+          <!-- Window Card 4 — Fixed Window -->
+          <div class="product-card fade-in">
+            <div class="product-img" onclick="openLightbox('https://www.supreme.co.in/uploads/images/Vyt1mhs5BkIIxRQB67JtrqOwZiZw7ySBST8lfa82.png','Fixed / Picture Window — Supreme Griham',3)">
+              <img src="https://www.supreme.co.in/uploads/images/Vyt1mhs5BkIIxRQB67JtrqOwZiZw7ySBST8lfa82.png" alt="Supreme Griham Fixed Window" loading="lazy" />
+            </div>
+            <div class="product-body">
+              <div class="product-name">Fixed / Picture Window</div>
+              <div class="product-desc">Non-opening frame maximising glass area for panoramic views. Perfect for statement walls, stairways and large facades.</div>
+              <div class="product-features">
+                <span class="product-feature-pill">Panoramic View</span>
+                <span class="product-feature-pill">Custom Sizes</span>
+                <span class="product-feature-pill">Acoustic Glass</span>
+              </div>
+            </div>
+          </div>
+          <!-- Window Card 5 — Glass & Accessories -->
+          <div class="product-card fade-in" style="transition-delay:0.1s">
+            <div class="product-img" onclick="openLightbox('https://www.supreme.co.in/uploads/images/t4ujKIZvdhQrjaj8u4AKpmyeO5oghl6NISfrsPrD.png','Glass & Accessories — Supreme Griham',4)">
+              <img src="https://www.supreme.co.in/uploads/images/t4ujKIZvdhQrjaj8u4AKpmyeO5oghl6NISfrsPrD.png" alt="Supreme Griham Glass & Accessories" loading="lazy" />
+            </div>
+            <div class="product-body">
+              <div class="product-name">Glass & Accessories</div>
+              <div class="product-desc">Complete your windows with the right glass and accessories for enhanced performance, privacy and aesthetics.</div>
+              <div class="product-features">
+                <span class="product-feature-pill">Insect Mesh</span>
+                <span class="product-feature-pill">Georgian Bars</span>
+                <span class="product-feature-pill">Blinds In Glass</span>
+                <span class="product-feature-pill">Decorative Architraves</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- DOORS PANEL -->
+      <div class="product-panel" id="panel-doors">
+        <div class="products-grid">
+          <!-- Door Card 1 — Sliding Door -->
+          <div class="product-card fade-in">
+            <div class="product-img" onclick="openLightbox('https://www.supreme.co.in/uploads/images/XbXJ5FTsoqhsKlrXY1fZB9BwepNROmudfhlSMCG5.png','Sliding Door — Supreme Griham',5)">
+              <img src="https://www.supreme.co.in/uploads/images/XbXJ5FTsoqhsKlrXY1fZB9BwepNROmudfhlSMCG5.png" alt="Supreme Griham Sliding Door" loading="lazy" />
+              <div class="product-tag">Most Popular</div>
+            </div>
+            <div class="product-body">
+              <div class="product-name">Sliding Door</div>
+              <div class="product-desc">Elegant sliding panels for balconies, patios & living spaces. Available in 2/3 track systems with up to 6 panels for grand openings.</div>
+              <div class="product-features">
+                <span class="product-feature-pill">2-Track</span>
+                <span class="product-feature-pill">3-Track</span>
+                <span class="product-feature-pill">6-Panel</span>
+                <span class="product-feature-pill">Multi-lock</span>
+              </div>
+            </div>
+          </div>
+          <!-- Door Card 2 — Casement Door -->
+          <div class="product-card fade-in" style="transition-delay:0.1s">
+            <div class="product-img" onclick="openLightbox('https://www.supreme.co.in/uploads/images/GnjhZu6qO3C7GgIxjZnl33igbFdiTuhKja9gY5mF.png','Casement Door — Supreme Griham',6)">
+              <img src="https://www.supreme.co.in/uploads/images/GnjhZu6qO3C7GgIxjZnl33igbFdiTuhKja9gY5mF.png" alt="Supreme Griham Casement Door" loading="lazy" />
+              <div class="product-tag">Premium</div>
+            </div>
+            <div class="product-body">
+              <div class="product-name">Casement Door</div>
+              <div class="product-desc">Classic swing door with 3D hinges for precise alignment. Multi-point locking for maximum security with elegant profiles.</div>
+              <div class="product-features">
+                <span class="product-feature-pill">Single / Double Leaf</span>
+                <span class="product-feature-pill">3D Hinges</span>
+                <span class="product-feature-pill">Multi-point Lock</span>
+              </div>
+            </div>
+          </div>
+          <!-- Door Card 3 — Slide & Fold Door -->
+          <div class="product-card fade-in" style="transition-delay:0.2s">
+            <div class="product-img" onclick="openLightbox('https://www.supreme.co.in/uploads/images/ETpHwtJLckQBao87W8TcjmrJdfjoq3RMA8RTpEfj.png','Slide & Fold Door — Supreme Griham',7)">
+              <img src="https://www.supreme.co.in/uploads/images/ETpHwtJLckQBao87W8TcjmrJdfjoq3RMA8RTpEfj.png" alt="Supreme Griham Slide & Fold Door" loading="lazy" />
+              <div class="product-tag">Architectural</div>
+            </div>
+            <div class="product-body">
+              <div class="product-name">Slide & Fold Door</div>
+              <div class="product-desc">Bi-fold panels that stack neatly to one side, creating full-width openings. Perfect for connecting indoor & outdoor living spaces.</div>
+              <div class="product-features">
+                <span class="product-feature-pill">Full Opening</span>
+                <span class="product-feature-pill">3–6 Panels</span>
+                <span class="product-feature-pill">Space Saving</span>
+              </div>
+            </div>
+          </div>
+          <!-- Door Card 4 — French Door -->
+          <div class="product-card fade-in">
+            <div class="product-img" onclick="openLightbox('https://www.supreme.co.in/uploads/images/2Djx6iJUErIgS2VGIfNEu4DKqaFcVXNnqSVaIuru.png','French Door — Supreme Griham',8)">
+              <img src="https://www.supreme.co.in/uploads/images/2Djx6iJUErIgS2VGIfNEu4DKqaFcVXNnqSVaIuru.png" alt="Supreme Griham French Door" loading="lazy" />
+            </div>
+            <div class="product-body">
+              <div class="product-name">French Door</div>
+              <div class="product-desc">Double-leaf inward or outward opening door with full glass panes. Timeless European elegance for balconies and living areas.</div>
+              <div class="product-features">
+                <span class="product-feature-pill">Inward/Outward</span>
+                <span class="product-feature-pill">Full Glass</span>
+                <span class="product-feature-pill">Georgian Bars</span>
+              </div>
+            </div>
+          </div>
+          <!-- Door Card 5 — Smart Lock -->
+          <div class="product-card fade-in" style="transition-delay:0.1s">
+            <div class="product-img" onclick="openLightbox('https://www.supreme.co.in/dist/img/griham/Smart_lock.jpg','Smart Lock & Automation — Supreme Griham',9)">
+              <img src="https://www.supreme.co.in/dist/img/griham/Smart_lock.jpg" alt="Supreme Griham Smart Lock" loading="lazy" />
+              <div class="product-tag">New Launch</div>
+            </div>
+            <div class="product-body">
+              <div class="product-name">Smart Lock & Automation</div>
+              <div class="product-desc">App-controlled, Alexa-enabled smart door systems. Keyless entry, access management and smart code handles for modern homes.</div>
+              <div class="product-features">
+                <span class="product-feature-pill">App Control</span>
+                <span class="product-feature-pill">Alexa Voice</span>
+                <span class="product-feature-pill">Access Mgmt</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- ============================================================
+           PRODUCT CATALOGUE / BROCHURE DOWNLOAD BAR
+           HOW TO UPDATE: Replace the href link with your new Google Drive URL
+           ============================================================ -->
+      <div class="brochure-bar fade-in">
+        <div class="brochure-bar-left">
+          <div class="brochure-icon">📄</div>
+          <div>
+            <div class="brochure-title">Supreme Griham Product Catalogue</div>
+            <div class="brochure-subtitle">Complete range of uPVC doors, windows, technologies & specifications — PDF, free download</div>
+          </div>
+        </div>
+        <a class="btn-brochure"
+           href="https://drive.google.com/file/d/19ZBHm-GWB7pIcsWLsVhBkVqaTpZHj0bp/view?usp=drive_link"
+           target="_blank"
+           rel="noopener">
+          ⬇ Download Catalogue
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TECHNOLOGIES SECTION
+       HOW TO UPDATE: Edit tech card content below
+       ============================================================ -->
+  <section class="technologies section-pad" id="technologies">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label" style="color:var(--gold)">Supreme Innovation</span>
+        <div class="ornament"><div class="ornament-diamond"></div></div>
+        <h2 class="section-title" style="color:var(--cream)">Technologies That Set Us Apart</h2>
+        <p class="section-subtitle" style="margin-top:16px;color:rgba(250,247,240,0.6);margin:16px auto 0;">
+          Supreme Griham's exclusive innovations — unavailable with any other brand in India.
+        </p>
+      </div>
+      <div class="tech-grid">
+        <div class="tech-card fade-in">
+          <span class="tech-icon">🔬</span>
+          <div class="tech-tag">First in India</div>
+          <div class="tech-name">DecoShield Technology</div>
+          <div class="tech-desc">Revolutionary surface engineering that brings uPVC to life with realistic wood grains, stone finishes, marble effects and designer patterns fused directly onto the profile.</div>
+          <ul class="tech-bullets">
+            <li class="tech-bullet">Natural-looking texture with real depth & character</li>
+            <li class="tech-bullet">UV-resistant — no fading, peeling or discolouration</li>
+            <li class="tech-bullet">Scratch & weather resistant for Indian conditions</li>
+            <li class="tech-bullet">Uniform finish even at corners and joints</li>
+          </ul>
+        </div>
+        <div class="tech-card fade-in" style="transition-delay:0.1s">
+          <span class="tech-icon">✨</span>
+          <div class="tech-tag">New Benchmark</div>
+          <div class="tech-name">Gold Line Architecture</div>
+          <div class="tech-desc">India's first metallic gold-coloured architectural groove on uPVC profiles — adding royal opulence to white, black and dark grey frames.</div>
+          <ul class="tech-bullets">
+            <li class="tech-bullet">Elegant contrast — like premium jewellery for your home</li>
+            <li class="tech-bullet">UV-resistant, anti-tarnish — gold lasts for decades</li>
+            <li class="tech-bullet">Subtle 2mm or bold wide-casing options</li>
+            <li class="tech-bullet">Complements gold handles, locks & curtain rods</li>
+          </ul>
+        </div>
+        <div class="tech-card fade-in">
+          <span class="tech-icon">🔐</span>
+          <div class="tech-tag">Smart Home Ready</div>
+          <div class="tech-name">Smart Lock & Automation</div>
+          <div class="tech-desc">Transform your home with intelligent door & window systems integrated with app control, Alexa voice commands and biometric access management.</div>
+          <ul class="tech-bullets">
+            <li class="tech-bullet">App control from anywhere in the world</li>
+            <li class="tech-bullet">Alexa voice command integration</li>
+            <li class="tech-bullet">Smart code handle & keyless entry</li>
+            <li class="tech-bullet">Access management for family & staff</li>
+          </ul>
+        </div>
+        <div class="tech-card fade-in" style="transition-delay:0.1s">
+          <span class="tech-icon">💧</span>
+          <div class="tech-tag">Engineering Innovation</div>
+          <div class="tech-name">Co-Extruded Gasket</div>
+          <div class="tech-desc">Industry-first gasket permanently fused to the uPVC profile during extrusion — creating an airtight, watertight molecular bond that never shrinks or pulls away.</div>
+          <ul class="tech-bullets">
+            <li class="tech-bullet">Zero shrinkage — sealed at molecular level</li>
+            <li class="tech-bullet">Ultimate monsoon-proof weatherproofing</li>
+            <li class="tech-bullet">Enhanced acoustic & thermal insulation</li>
+            <li class="tech-bullet">Maintenance-free lifetime performance</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       BENEFITS SECTION
+       HOW TO UPDATE: Edit benefit-card content below
+       ============================================================ -->
+  <section class="benefits section-pad" id="benefits">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">Why uPVC</span>
+        <div class="ornament"><div class="ornament-diamond"></div></div>
+        <h2 class="section-title">Built for India.<br/>Engineered for Life.</h2>
+        <p class="section-subtitle" style="margin-top:16px;">
+          Every advantage of Supreme Griham uPVC is designed around real challenges faced by Gurugram & Delhi homeowners.
+        </p>
+      </div>
+      <div class="benefits-grid">
+        <div class="benefit-card fade-in">
+          <div class="benefit-icon">❄️</div>
+          <div class="benefit-name">Energy Saving</div>
+          <div class="benefit-desc">Multi-chamber profiles and tight sealing reduce heat transfer — keeping rooms cooler in Delhi summers, cutting AC bills significantly.</div>
+        </div>
+        <div class="benefit-card fade-in" style="transition-delay:0.05s">
+          <div class="benefit-icon">🔇</div>
+          <div class="benefit-name">40dB Noise Reduction</div>
+          <div class="benefit-desc">Precision sealing with acoustic glass blocks Gurugram traffic, construction and city noise — creating peaceful, calm interiors.</div>
+        </div>
+        <div class="benefit-card fade-in" style="transition-delay:0.1s">
+          <div class="benefit-icon">🌧️</div>
+          <div class="benefit-name">Rainwater Insulation</div>
+          <div class="benefit-desc">Fusion-welded joints and drainage paths prevent water seepage during intense monsoons. Walls stay stain-free, interiors stay dry.</div>
+        </div>
+        <div class="benefit-card fade-in" style="transition-delay:0.15s">
+          <div class="benefit-icon">💨</div>
+          <div class="benefit-name">Dust & Pollution Shield</div>
+          <div class="benefit-desc">Tight sealing keeps Delhi's dust, pollution and outdoor contaminants outside — maintaining cleaner, healthier indoor air quality.</div>
+        </div>
+        <div class="benefit-card fade-in" style="transition-delay:0.2s">
+          <div class="benefit-icon">🔒</div>
+          <div class="benefit-name">Enhanced Security</div>
+          <div class="benefit-desc">Reinforced multi-chambered profiles with multi-point locking systems provide structural integrity and maximum protection for your family.</div>
+        </div>
+        <div class="benefit-card fade-in" style="transition-delay:0.25s">
+          <div class="benefit-icon">🐜</div>
+          <div class="benefit-name">Termite Safe</div>
+          <div class="benefit-desc">uPVC doesn't attract pests, doesn't rot, and requires no chemical treatments — unlike wood, delivering durability without ongoing costs.</div>
+        </div>
+        <div class="benefit-card fade-in" style="transition-delay:0.3s">
+          <div class="benefit-icon">✨</div>
+          <div class="benefit-name">Zero Maintenance</div>
+          <div class="benefit-desc">No painting, no polishing, no seasonal drama. A simple wipe keeps them looking new year after year — saving time and money.</div>
+        </div>
+        <div class="benefit-card fade-in" style="transition-delay:0.35s">
+          <div class="benefit-icon">🌿</div>
+          <div class="benefit-name">Eco-Friendly</div>
+          <div class="benefit-desc">Made from fully recyclable uPVC with eco-friendly manufacturing — a sustainable choice for the planet and your home's long-term value.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       PROCESS SECTION
+       HOW TO UPDATE: Edit process step names and descriptions
+       ============================================================ -->
+  <section class="process section-pad-sm" id="process">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">How It Works</span>
+        <div class="ornament"><div class="ornament-diamond"></div></div>
+        <h2 class="section-title">From Idea to Installation<br/>in 7 Simple Steps</h2>
+      </div>
+      <div class="process-steps">
+        <div class="process-step fade-in">
+          <div class="process-num">1</div>
+          <div class="process-step-name">Consultation</div>
+          <div class="process-step-desc">Share your requirements with Karan & our team</div>
+        </div>
+        <div class="process-step fade-in" style="transition-delay:0.08s">
+          <div class="process-num">2</div>
+          <div class="process-step-name">Design</div>
+          <div class="process-step-desc">Customised design with colour, glass & finish options</div>
+        </div>
+        <div class="process-step fade-in" style="transition-delay:0.16s">
+          <div class="process-num">3</div>
+          <div class="process-step-name">Site Survey</div>
+          <div class="process-step-desc">Free home visit & precise measurements</div>
+        </div>
+        <div class="process-step fade-in" style="transition-delay:0.24s">
+          <div class="process-num">4</div>
+          <div class="process-step-name">Manufacturing</div>
+          <div class="process-step-desc">Made-to-order at Supreme's ISO-certified plant</div>
+        </div>
+        <div class="process-step fade-in" style="transition-delay:0.32s">
+          <div class="process-num">5</div>
+          <div class="process-step-name">Installation</div>
+          <div class="process-step-desc">Expert technicians install with zero-defect precision</div>
+        </div>
+        <div class="process-step fade-in" style="transition-delay:0.4s">
+          <div class="process-num">6</div>
+          <div class="process-step-name">Handover</div>
+          <div class="process-step-desc">Thorough inspection & demo before handover</div>
+        </div>
+        <div class="process-step fade-in" style="transition-delay:0.48s">
+          <div class="process-num">7</div>
+          <div class="process-step-name">After-Sales</div>
+          <div class="process-step-desc">Ongoing support backed by Supreme's service network</div>
+        </div>
+      </div>
+      <div class="text-center" style="margin-top:52px;">
+        <a href="https://wa.me/919711454647?text=Hi%2C%20I%27d%20like%20to%20start%20the%20consultation%20process%20for%20uPVC%20doors%20and%20windows." target="_blank" class="btn btn-gold">Start the Process — Free Consultation</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       GALLERY SECTION
+       HOW TO UPDATE: Add new .gallery-item divs inside .gallery-grid
+       Set data-cat to: "windows" | "doors" | "lifestyle"
+       Replace src with your own photo URLs when available
+       ============================================================ -->
+  <section class="gallery section-pad" id="gallery">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">Gallery</span>
+        <div class="ornament"><div class="ornament-diamond"></div></div>
+        <h2 class="section-title">Supreme Griham<br/>In Every Space</h2>
+        <p class="section-subtitle" style="margin-top:16px;">
+          Browse our collection of Supreme Griham uPVC doors and windows — crafted for beauty, precision and lasting performance.
+        </p>
+      </div>
+
+      <!-- Filter Tabs -->
+      <div class="gallery-filters">
+        <button class="gallery-filter-btn active" onclick="filterGallery('all', this)">All</button>
+        <button class="gallery-filter-btn" onclick="filterGallery('windows', this)">🪟 Windows</button>
+        <button class="gallery-filter-btn" onclick="filterGallery('doors', this)">🚪 Doors</button>
+        <button class="gallery-filter-btn" onclick="filterGallery('lifestyle', this)">✨ Lifestyle</button>
+      </div>
+
+      <!-- Masonry Gallery Grid -->
+      <div class="gallery-grid" id="galleryGrid">
+
+        <!-- ======================================================
+             GALLERY ITEMS
+             HOW TO UPDATE:
+             - Add new items by copying a .gallery-item block
+             - Change data-cat="windows" | "doors" | "lifestyle"
+             - Change src to your image URL
+             - Change data-index to the next number in sequence
+             - Change alt text to describe the image
+             ====================================================== -->
+
+        <div class="gallery-item" data-cat="windows" data-index="0"
+             onclick="openGalleryLightbox(0)">
+          <img src="https://www.supreme.co.in/uploads/images/3AoG1hKiiDdRILeyckO93lEKTV3o08oHptYMezN0.jpg"
+               alt="Supreme Griham Slider Window" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="doors" data-index="1"
+             onclick="openGalleryLightbox(1)">
+          <img src="https://www.supreme.co.in/uploads/images/OnNmlfikdrZciY5luh8FYA1m6RcIdv6o5qrTilSF.jpg"
+               alt="Supreme Griham Sliding Door" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="windows" data-index="2"
+             onclick="openGalleryLightbox(2)">
+          <img src="https://www.supreme.co.in/uploads/images/ZoM0YFB8SXwJxEtprgfASmom5nnUQh6KtQbGCKBa.jpg"
+               alt="Supreme Griham Casement Window" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="lifestyle" data-index="3"
+             onclick="openGalleryLightbox(3)">
+          <img src="https://www.supreme.co.in/uploads/images/23o2YyYBtdW3FEIb5vL2Rq4JazdiCnTUwJc8nWNe.png"
+               alt="Supreme Griham Lifestyle" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="doors" data-index="4"
+             onclick="openGalleryLightbox(4)">
+          <img src="https://www.supreme.co.in/uploads/images/qKC0GxEnQxtGTuzLjXduhFc2fOzBxasxIXrm9RnE.png"
+               alt="Supreme Griham Casement Door" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="windows" data-index="5"
+             onclick="openGalleryLightbox(5)">
+          <img src="https://www.supreme.co.in/uploads/images/NHH5yj8mFuszREHBsaBN9ahI3mvYGGIBPSGzeTqu.png"
+               alt="Supreme Griham Tilt & Turn Window" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="lifestyle" data-index="6"
+             onclick="openGalleryLightbox(6)">
+          <img src="https://www.supreme.co.in/uploads/images/mQw76p9MY1B2I8UnsRi5C8DZanvqFjU5mV31REAH.png"
+               alt="Supreme Griham Interior Lifestyle" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="doors" data-index="7"
+             onclick="openGalleryLightbox(7)">
+          <img src="https://www.supreme.co.in/uploads/images/2Djx6iJUErIgS2VGIfNEu4DKqaFcVXNnqSVaIuru.png"
+               alt="Supreme Griham Slide & Fold Door" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="windows" data-index="8"
+             onclick="openGalleryLightbox(8)">
+          <img src="https://www.supreme.co.in/uploads/images/1YoPcnhejwvlaNcwuuuZcRfG9H7f4fTbHxLAqZyQ.png"
+               alt="Supreme Griham Fixed Window" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="lifestyle" data-index="9"
+             onclick="openGalleryLightbox(9)">
+          <img src="https://www.supreme.co.in/uploads/images/K0CGf3s6ZJipRqRBKRwslikqu8NayJ23snf4pVcD.png"
+               alt="Supreme Griham Lifestyle Space" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="doors" data-index="10"
+             onclick="openGalleryLightbox(10)">
+          <img src="https://www.supreme.co.in/uploads/images/pJvbtCmYpX5qp88MbyClXm5KgI67Xh79sNuvably.png"
+               alt="Supreme Griham French Door" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="lifestyle" data-index="11"
+             onclick="openGalleryLightbox(11)">
+          <img src="https://www.supreme.co.in/uploads/images/z5urcYA2OxOG02v20j6BUQw7gaZDBvVKVrJDPUus.png"
+               alt="Supreme Griham Premium Interior" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="windows" data-index="12"
+             onclick="openGalleryLightbox(12)">
+          <img src="https://www.supreme.co.in/uploads/images/a9yqbCFUpiTAL01pNNA9ZKsk8ToUKbyaRrGRxmuL.jpg"
+               alt="Supreme Griham Bay Window" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="lifestyle" data-index="13"
+             onclick="openGalleryLightbox(13)">
+          <img src="https://www.supreme.co.in/uploads/images/i5EOJN697JBp2hVw0ScGi7N3L99QqjQxPowJ7Lkm.png"
+               alt="Supreme Griham Living Space" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="doors" data-index="14"
+             onclick="openGalleryLightbox(14)">
+          <img src="https://www.supreme.co.in/uploads/images/jlRGyfJWQzvqpDAo9ttlicnmKhFzll7OnwkqAej6.png"
+               alt="Supreme Griham Smart Lock Door" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="lifestyle" data-index="15"
+             onclick="openGalleryLightbox(15)">
+          <img src="https://www.supreme.co.in/uploads/images/Jm0aJasaUDKGUcKBuGzKuDOYG7HHyB2p3CSos0s1.png"
+               alt="Supreme Griham Home Interior" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="windows" data-index="16"
+             onclick="openGalleryLightbox(16)">
+          <img src="https://www.supreme.co.in/uploads/images/9xSr7RGpX5c6uogPvrprItx86xMqja9ztAhxiQME.jpg"
+               alt="Supreme Griham Window Accessories" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="lifestyle" data-index="17"
+             onclick="openGalleryLightbox(17)">
+          <img src="https://www.supreme.co.in/uploads/images/JQQAP916T4rr7qPclJksyuX6a5tohLSedcmiZ1mk.png"
+               alt="Supreme Griham Elegant Interior" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+        <div class="gallery-item" data-cat="lifestyle" data-index="18"
+             onclick="openGalleryLightbox(18)">
+          <img src="https://www.supreme.co.in/uploads/images/jvgcgTCqJaKycliDX1DFfj2zo7cCPK5amKf0Qp9S.png"
+               alt="Supreme Griham Modern Space" loading="lazy" />
+          <div class="gallery-item-overlay"><div class="gallery-zoom-icon">🔍</div></div>
+        </div>
+
+      </div>
+
+      <!-- Swipe hint — only visible on mobile -->
+      <div class="swipe-hint">← Swipe to browse gallery →</div>
+
+      <div class="gallery-load-wrap fade-in">
+    </div>
+  </section>
+
+  <!-- ============================================================
+       TESTIMONIALS — YouTube thumbnail cards
+       HOW TO UPDATE: Replace VIDEO_ID in href and img src
+       ============================================================ -->
+  <section class="testimonials section-pad" id="testimonials">
+    <div class="container">
+      <div class="text-center fade-in">
+        <span class="section-label">Customer Stories</span>
+        <div class="ornament"><div class="ornament-diamond"></div></div>
+        <h2 class="section-title" style="color:var(--cream)">Hear From Real<br/>Supreme Griham Customers</h2>
+        <p class="section-subtitle" style="margin-top:16px;">
+          Real testimonials from customers who transformed their homes with Supreme Griham uPVC doors & windows.
+        </p>
+      </div>
+      <div class="videos-grid">
+
+        <!-- VIDEO CARD 1 -->
+        <a class="video-card fade-in"
+           href="https://www.youtube.com/watch?v=AGJ2hOU91OQ"
+           target="_blank" rel="noopener">
+          <div class="video-thumb-wrap">
+            <img
+              src="https://img.youtube.com/vi/AGJ2hOU91OQ/maxresdefault.jpg"
+              alt="Supreme Griham Customer Testimonial 1"
+              loading="lazy" />
+            <div class="video-play-btn">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="video-body">
+            <div class="video-label">Customer Story</div>
+            <div class="video-title">Real Experience with Supreme Griham uPVC</div>
+            <div class="video-watch-btn">Watch on YouTube →</div>
+          </div>
+        </a>
+
+        <!-- VIDEO CARD 2 -->
+        <a class="video-card fade-in" style="transition-delay:0.1s"
+           href="https://www.youtube.com/watch?v=u4HSsjLT_uA"
+           target="_blank" rel="noopener">
+          <div class="video-thumb-wrap">
+            <img
+              src="https://img.youtube.com/vi/u4HSsjLT_uA/maxresdefault.jpg"
+              alt="Supreme Griham Customer Testimonial 2"
+              loading="lazy" />
+            <div class="video-play-btn">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="video-body">
+            <div class="video-label">Customer Story</div>
+            <div class="video-title">Homeowner Review — Supreme Griham Doors & Windows</div>
+            <div class="video-watch-btn">Watch on YouTube →</div>
+          </div>
+        </a>
+
+        <!-- VIDEO CARD 3 -->
+        <a class="video-card fade-in" style="transition-delay:0.2s"
+           href="https://www.youtube.com/watch?v=oTuZHyBfnWU"
+           target="_blank" rel="noopener">
+          <div class="video-thumb-wrap">
+            <img
+              src="https://img.youtube.com/vi/oTuZHyBfnWU/maxresdefault.jpg"
+              alt="Supreme Griham Customer Testimonial 3"
+              loading="lazy" />
+            <div class="video-play-btn">
+              <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path d="M8 5v14l11-7z"/>
+              </svg>
+            </div>
+          </div>
+          <div class="video-body">
+            <div class="video-label">Customer Story</div>
+            <div class="video-title">Why Customers Choose Supreme Griham uPVC</div>
+            <div class="video-watch-btn">Watch on YouTube →</div>
+          </div>
+        </a>
+
+      </div>
+      <!-- Swipe hint — only visible on mobile -->
+      <div class="swipe-hint swipe-hint-dark">← Swipe to see more stories →</div>
+      <div class="text-center" style="margin-top:32px;">
+        <a href="https://www.youtube.com/@SupremeGriham" target="_blank" class="btn btn-outline" style="color:var(--gold-light);border-color:var(--gold);">
+          View All Customer Stories →
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       WHY CHOOSE THE PINNACLE PANE
+       ============================================================ -->
+  <section class="why-us section-pad" id="why-us">
+    <div class="container">
+      <div class="why-grid">
+        <div class="fade-in">
+          <span class="section-label">Why Choose Us</span>
+          <span class="gold-line left"></span>
+          <h2 class="section-title">The Pinnacle Pane<br/>Difference</h2>
+          <p class="section-subtitle" style="margin-top:20px;">
+            As your local Supreme Griham partner in Gurugram & Delhi, we combine the power of a national brand with the warmth, speed and personalisation of a dedicated local team.
+          </p>
+          <div class="why-features" style="margin-top:36px;">
+            <div class="why-feature">
+              <div class="why-feature-num">01</div>
+              <div class="why-feature-body">
+                <div class="why-feature-title">🤝 Personal Attention from Karan Singh</div>
+                <div class="why-feature-text">Deal directly with the dealer — no middlemen, no call centres. Karan personally ensures your project runs smoothly from start to finish.</div>
+              </div>
+            </div>
+            <div class="why-feature">
+              <div class="why-feature-num">02</div>
+              <div class="why-feature-body">
+                <div class="why-feature-title">🚀 Fast Response — Within 2 Hours</div>
+                <div class="why-feature-text">WhatsApp us anytime. We respond within 2 hours and schedule your free site visit at your convenience.</div>
+              </div>
+            </div>
+            <div class="why-feature">
+              <div class="why-feature-num">03</div>
+              <div class="why-feature-body">
+                <div class="why-feature-title">🏙️ Local Expertise — Gurugram & Delhi NCR</div>
+                <div class="why-feature-text">We understand local building norms, common architectures and the specific challenges of high-rise apartments and independent homes in the NCR region.</div>
+              </div>
+            </div>
+            <div class="why-feature">
+              <div class="why-feature-num">04</div>
+              <div class="why-feature-body">
+                <div class="why-feature-title">🔧 End-to-End Service</div>
+                <div class="why-feature-text">We handle everything — site visit, design, manufacturing order, installation and after-sales. One point of contact for your entire journey.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="fade-in" style="transition-delay:0.2s">
+          <div class="why-stats">
+            <div class="why-stat">
+              <div class="why-stat-num">80+</div>
+              <div class="why-stat-label">Years Supreme Industries Trust</div>
+            </div>
+            <div class="why-stat">
+              <div class="why-stat-num">20yr</div>
+              <div class="why-stat-label">Profile Warranty Backed by Supreme</div>
+            </div>
+            <div class="why-stat">
+              <div class="why-stat-num">ISO</div>
+              <div class="why-stat-label">Certified Manufacturing Facility</div>
+            </div>
+            <div class="why-stat">
+              <div class="why-stat-num">2hrs</div>
+              <div class="why-stat-label">Our Guaranteed Response Time</div>
+            </div>
+          </div>
+          <div class="supreme-badge">
+            <div class="supreme-badge-icon">
+              <img src="supreme-logo.png"
+                   alt="Supreme Griham"
+                   style="height:36px;width:auto;object-fit:contain;filter:brightness(10);"
+                   onerror="this.outerHTML='🏆'" />
+            </div>
+            <div class="supreme-badge-text">
+              <strong>Authorised Supreme Griham Channel Partner</strong><br/>
+              Gurugram & Delhi NCR — Backed by The Supreme Industries Limited, India's largest plastics processor since 1942.
+            </div>
+          </div>
+          <div style="margin-top:24px;">
+            <a href="#contact" class="btn btn-gold" style="width:100%;justify-content:center;">Get Your Free Quote Today</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       CONTACT SECTION
+       HOW TO UPDATE: The form sends via WhatsApp — update phone below
+       For email form: set up Formspree.io (free) and replace action
+       ============================================================ -->
+  <section class="contact section-pad" id="contact">
+    <div class="container">
+      <div class="text-center fade-in" style="margin-bottom:64px;">
+        <span class="section-label">Get In Touch</span>
+        <div class="ornament"><div class="ornament-diamond"></div></div>
+        <h2 class="section-title">Book Your Free Home Visit</h2>
+        <p class="section-subtitle" style="margin-top:16px;">
+          Tell us about your project and we'll schedule a free visit, measurement and quote — no commitment required.
+        </p>
+      </div>
+      <div class="contact-grid">
+        <div class="fade-in">
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📞</div>
+            <div>
+              <div class="contact-detail-label">Phone / WhatsApp</div>
+              <!-- HOW TO UPDATE: Change the phone number here -->
+              <div class="contact-detail-value">
+                <a href="tel:+919711454647">+91 97114 54647</a><br/>
+                <a href="https://wa.me/919711454647" target="_blank" style="color:var(--gold-dark);font-size:13px;">💬 Click to WhatsApp</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">✉️</div>
+            <div>
+              <div class="contact-detail-label">Email</div>
+              <!-- HOW TO UPDATE: Change the email here -->
+              <div class="contact-detail-value">
+                <a href="mailto:thepinnaclepane@gmail.com">thepinnaclepane@gmail.com</a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">📍</div>
+            <div>
+              <div class="contact-detail-label">Office Address</div>
+              <!-- HOW TO UPDATE: Change the address here -->
+              <div class="contact-detail-value">
+                D 212, First Floor,<br/>
+                Sushant Shopping Arcade,<br/>
+                Gurugram — 122009
+              </div>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail-icon">🕐</div>
+            <div>
+              <div class="contact-detail-label">Business Hours</div>
+              <div class="contact-detail-value">
+                Monday – Saturday: 9:00 AM – 7:00 PM<br/>
+                Sunday: By Appointment
+              </div>
+            </div>
+          </div>
+          <div class="map-wrap">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3508.2!2d77.0787735!3d28.4602689!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d190809f862d1%3A0x6a539f17a535c112!2sSushant%20Shopping%20Arcade!5e0!3m2!1sen!2sin!4v1234567890"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              title="The Pinnacle Pane — D 212 Sushant Shopping Arcade Gurugram">
+            </iframe>
+          </div>
+        </div>
+
+        <!-- CONTACT FORM -->
+        <div class="contact-form-wrap fade-in" style="transition-delay:0.2s">
+          <div class="contact-form-title">Send Us a Message</div>
+          <div class="form-row">
+            <div class="form-group">
+              <label class="form-label" for="fname">Your Name *</label>
+              <input class="form-input" type="text" id="fname" placeholder="Rahul Sharma" required />
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="fphone">Phone / WhatsApp *</label>
+              <input class="form-input" type="tel" id="fphone" placeholder="+91 98765 43210" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="femail">Email Address</label>
+            <input class="form-input" type="email" id="femail" placeholder="rahul@example.com" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="flocation">Your Location</label>
+            <input class="form-input" type="text" id="flocation" placeholder="e.g. DLF Phase 3, Gurugram" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="fproduct">I'm Interested In</label>
+            <select class="form-select" id="fproduct">
+              <option value="">Select Product...</option>
+              <option>Slider Windows</option>
+              <option>Casement Windows</option>
+              <option>Tilt & Turn Windows</option>
+              <option>Sliding Doors</option>
+              <option>Casement Doors</option>
+              <option>Slide & Fold Doors</option>
+              <option>Smart Lock & Automation</option>
+              <option>Complete Home — Doors & Windows</option>
+              <option>Not Sure — Need Consultation</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="fmessage">Additional Details</label>
+            <textarea class="form-textarea" id="fmessage" placeholder="Number of windows/doors, apartment or independent house, preferred timeline, any specific requirements..."></textarea>
+          </div>
+          <!-- Sends enquiry to WhatsApp — no server needed! -->
+          <button class="form-submit" onclick="submitToWhatsApp()">
+            Send Enquiry via WhatsApp →
+          </button>
+          <div class="form-note">
+            Your details will be sent directly to Karan Singh via WhatsApp. We respond within 2 hours.
+          </div>
+          <div class="form-success" id="formSuccess">
+            ✅ Redirecting to WhatsApp... If it didn't open, <a href="https://wa.me/919711454647" target="_blank">click here</a>.
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================================================
+       FOOTER
+       HOW TO UPDATE: Change links, social handles, address
+       ============================================================ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <!-- Use same logo as navbar -->
+          <div style="display:flex;align-items:center;gap:12px;margin-bottom:20px;">
+            <div style="width:48px;height:48px;background:linear-gradient(135deg,var(--gold-dark),var(--gold));border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:22px;">🏛</div>
+            <div>
+              <div style="font-family:var(--font-display);font-size:20px;font-weight:700;color:var(--gold-light);">THE PINNACLE PANE</div>
+              <div style="font-size:10px;letter-spacing:2px;color:rgba(250,247,240,0.4);text-transform:uppercase;">Supreme Door & Window Solutions</div>
+            </div>
+          </div>
+          <p class="footer-brand-text">
+            Authorised Supreme Griham channel partner serving Gurugram & Delhi NCR. Premium uPVC doors and windows with free home visit, expert installation and 20-year warranty.
+          </p>
+          <div class="supreme-certified">
+            <!-- Supreme Griham logo — upload supreme-logo.png to GitHub repo root -->
+            <img src="supreme-logo.png"
+                 alt="Supreme Griham"
+                 style="height:22px;width:auto;object-fit:contain;filter:brightness(1.3);"
+                 onerror="this.style.display='none'" />
+            Authorised Supreme Griham Channel Partner
+          </div>
+          <div class="footer-social">
+            <!-- HOW TO UPDATE: Replace # with your actual social media profile URLs -->
+            <a href="#" target="_blank" class="footer-social-link" aria-label="Facebook">f</a>
+            <a href="#" target="_blank" class="footer-social-link" aria-label="Instagram">📷</a>
+            <a href="https://wa.me/919711454647" target="_blank" class="footer-social-link" aria-label="WhatsApp">💬</a>
+            <a href="https://www.youtube.com/@SupremeGriham" target="_blank" class="footer-social-link" aria-label="YouTube">▶</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Products</div>
+          <div class="footer-links">
+            <a href="#products" onclick="switchTab('windows',null)">Slider Windows</a>
+            <a href="#products" onclick="switchTab('windows',null)">Casement Windows</a>
+            <a href="#products" onclick="switchTab('windows',null)">Tilt & Turn Windows</a>
+            <a href="#products" onclick="switchTab('doors',null)">Sliding Doors</a>
+            <a href="#products" onclick="switchTab('doors',null)">Casement Doors</a>
+            <a href="#products" onclick="switchTab('doors',null)">Smart Lock Doors</a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Company</div>
+          <div class="footer-links">
+            <a href="#about">About Us</a>
+            <a href="#technologies">Technologies</a>
+            <a href="#benefits">Why uPVC</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#process">Our Process</a>
+            <a href="#testimonials">Customer Stories</a>
+            <a href="#contact">Contact</a>
+            <a href="https://drive.google.com/file/d/19ZBHm-GWB7pIcsWLsVhBkVqaTpZHj0bp/view?usp=drive_link"
+               target="_blank" rel="noopener"
+               style="color:var(--gold);font-weight:500;">
+              📄 Product Catalogue
+            </a>
+          </div>
+        </div>
+        <div>
+          <div class="footer-col-title">Contact</div>
+          <div class="footer-links">
+            <a href="tel:+919711454647">📞 +91 97114 54647</a>
+            <a href="mailto:thepinnaclepane@gmail.com">✉ thepinnaclepane@gmail.com</a>
+            <a href="https://wa.me/919711454647" target="_blank">💬 WhatsApp</a>
+            <a href="#contact" style="font-size:12px;line-height:1.6;color:rgba(250,247,240,0.4);">
+              D 212, First Floor,<br/>Sushant Shopping Arcade,<br/>Gurugram — 122009
+            </a>
+          </div>
+          <div style="margin-top:20px;">
+            <a href="https://wa.me/919711454647?text=Hi%2C%20I%27d%20like%20a%20free%20home%20visit%20for%20uPVC%20doors%20and%20windows." target="_blank" class="btn btn-gold" style="padding:12px 20px;font-size:11px;width:100%;justify-content:center;">
+              Book Free Home Visit
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div style="color:rgba(250,247,240,0.35);">
+          © 2025 The Pinnacle Pane. All rights reserved. | An authorised Supreme Griham channel partner.
+        </div>
+        <div class="footer-bottom-right">
+          <a href="#home">Privacy Policy</a>
+          <a href="#home">Terms of Service</a>
+          <a href="https://www.supreme.co.in/griham" target="_blank">Supreme Griham Official</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ============================================================
+       JAVASCRIPT
+       Minimal, clean, well-commented for easy developer handover
+       ============================================================ -->
+  <script>
+    // ============================================================
+    // NAVBAR: Add "scrolled" class on scroll for shadow effect
+    // ============================================================
+    const navbar = document.getElementById('navbar');
+    const backTop = document.getElementById('backTop');
+    window.addEventListener('scroll', () => {
+      navbar.classList.toggle('scrolled', window.scrollY > 60);
+      backTop.classList.toggle('visible', window.scrollY > 400);
+    });
+
+    // ============================================================
+    // MOBILE MENU: Toggle open/close
+    // ============================================================
+    function toggleMenu() {
+      const hamburger = document.getElementById('hamburger');
+      const mobileMenu = document.getElementById('mobileMenu');
+      hamburger.classList.toggle('open');
+      mobileMenu.classList.toggle('open');
+    }
+    function closeMobileMenu() {
+      document.getElementById('hamburger').classList.remove('open');
+      document.getElementById('mobileMenu').classList.remove('open');
+    }
+
+    // ============================================================
+    // PRODUCT TABS: Switch between Windows and Doors
+    // HOW TO UPDATE: Tab IDs must match panel IDs: panel-{tabName}
+    // ============================================================
+    function switchTab(tabName, clickedEl) {
+      // Update tab active state
+      document.querySelectorAll('.products-tab').forEach(t => t.classList.remove('active'));
+      if (clickedEl) clickedEl.classList.add('active');
+
+      // Switch panels
+      document.querySelectorAll('.product-panel').forEach(p => p.classList.remove('active'));
+      const panel = document.getElementById('panel-' + tabName);
+      if (panel) panel.classList.add('active');
+    }
+
+    // ============================================================
+    // PRODUCT ENQUIRY: Opens WhatsApp with product name pre-filled
+    // HOW TO UPDATE: Change the phone number in the URL
+    // ============================================================
+    function enquireProduct(productName) {
+      const msg = encodeURIComponent(`Hi, I'm interested in ${productName} from Supreme Griham. Please share details and pricing.`);
+      window.open(`https://wa.me/919711454647?text=${msg}`, '_blank');
+    }
+
+    // ============================================================
+    // CONTACT FORM: Sends data to WhatsApp (no server needed!)
+    // HOW TO UPDATE: Change the phone number in the URL below
+    // ============================================================
+    function submitToWhatsApp() {
+      const name     = document.getElementById('fname').value.trim();
+      const phone    = document.getElementById('fphone').value.trim();
+      const email    = document.getElementById('femail').value.trim();
+      const location = document.getElementById('flocation').value.trim();
+      const product  = document.getElementById('fproduct').value;
+      const message  = document.getElementById('fmessage').value.trim();
+
+      if (!name || !phone) {
+        alert('Please fill in your name and phone number.');
+        return;
+      }
+
+      const text = `🏠 *New Enquiry — The Pinnacle Pane*\n\n*Name:* ${name}\n*Phone:* ${phone}${email ? '\n*Email:* ' + email : ''}${location ? '\n*Location:* ' + location : ''}${product ? '\n*Interested In:* ' + product : ''}${message ? '\n*Details:* ' + message : ''}\n\n_Sent from thepinnaclepane.in_`;
+
+      document.getElementById('formSuccess').style.display = 'block';
+      setTimeout(() => {
+        window.open(`https://wa.me/919711454647?text=${encodeURIComponent(text)}`, '_blank');
+      }, 500);
+    }
+
+    // ============================================================
+    // SCROLL ANIMATION: Fade in elements as they enter viewport
+    // ============================================================
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.12 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // ============================================================
+    // ACTIVE NAV LINK: Highlight nav link based on scroll position
+    // ============================================================
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let current = '';
+      sections.forEach(section => {
+        const sectionTop = section.offsetTop - 100;
+        if (window.scrollY >= sectionTop) current = section.getAttribute('id');
+      });
+      navLinks.forEach(link => {
+        link.style.color = link.getAttribute('href') === '#' + current ? 'var(--gold-dark)' : '';
+      });
+    });
+
+    // ============================================================
+    // LIGHTBOX — image zoom viewer
+    // HOW TO UPDATE: Images are passed via openLightbox() calls on each product card
+    // ============================================================
+    const lightboxImages = [
+      // Windows (index 0–4)
+      { src: 'https://www.supreme.co.in/uploads/images/fs75n7FD9luuKeh6sLAiLSm7XPaNVCHL7izSZdP4.jpg', caption: 'Slider Window — Supreme Griham' },
+      { src: 'https://www.supreme.co.in/uploads/images/a8hwVRhilS8HfjoqzCl3utuyOA0rXYMsOwCHo5Zc.png', caption: 'Casement Window — Supreme Griham' },
+      { src: 'https://www.supreme.co.in/uploads/images/9eNxH0tqeKH9GCq3OGB4XG5DdHLWyIuSxTW20f7k.png', caption: 'Tilt & Turn Window — Supreme Griham' },
+      { src: 'https://www.supreme.co.in/uploads/images/Vyt1mhs5BkIIxRQB67JtrqOwZiZw7ySBST8lfa82.png', caption: 'Fixed / Picture Window — Supreme Griham' },
+      { src: 'https://www.supreme.co.in/uploads/images/t4ujKIZvdhQrjaj8u4AKpmyeO5oghl6NISfrsPrD.png', caption: 'Glass & Accessories — Supreme Griham' },
+      // Doors (index 5–9)
+      { src: 'https://www.supreme.co.in/uploads/images/XbXJ5FTsoqhsKlrXY1fZB9BwepNROmudfhlSMCG5.png', caption: 'Sliding Door — Supreme Griham' },
+      { src: 'https://www.supreme.co.in/uploads/images/GnjhZu6qO3C7GgIxjZnl33igbFdiTuhKja9gY5mF.png', caption: 'Casement Door — Supreme Griham' },
+      { src: 'https://www.supreme.co.in/uploads/images/ETpHwtJLckQBao87W8TcjmrJdfjoq3RMA8RTpEfj.png', caption: 'Slide & Fold Door — Supreme Griham' },
+      { src: 'https://www.supreme.co.in/uploads/images/2Djx6iJUErIgS2VGIfNEu4DKqaFcVXNnqSVaIuru.png', caption: 'French Door — Supreme Griham' },
+      { src: 'https://www.supreme.co.in/dist/img/griham/Smart_lock.jpg', caption: 'Smart Lock & Automation — Supreme Griham' },
+    ];
+    let currentLightboxIndex = 0;
+
+    function openLightbox(src, caption, index) {
+      currentLightboxIndex = index;
+      document.getElementById('lightboxImg').src = src;
+      document.getElementById('lightboxCaption').textContent = caption;
+      document.getElementById('lightboxOverlay').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+    function closeLightbox() {
+      document.getElementById('lightboxOverlay').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+    function closeLightboxOnBg(e) {
+      if (e.target === document.getElementById('lightboxOverlay')) closeLightbox();
+    }
+    function lightboxNav(dir) {
+      currentLightboxIndex = (currentLightboxIndex + dir + lightboxImages.length) % lightboxImages.length;
+      const item = lightboxImages[currentLightboxIndex];
+      document.getElementById('lightboxImg').src = item.src;
+      document.getElementById('lightboxCaption').textContent = item.caption;
+    }
+    // Close lightbox on Escape key
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeLightbox();
+      if (e.key === 'ArrowRight') lightboxNav(1);
+      if (e.key === 'ArrowLeft') lightboxNav(-1);
+    });
+
+    // ============================================================
+    // GALLERY FILTER — show/hide items by category
+    // HOW TO UPDATE: Add new data-cat values to match new filter buttons
+    // ============================================================
+    function filterGallery(cat, btn) {
+      document.querySelectorAll('.gallery-filter-btn').forEach(b => b.classList.remove('active'));
+      if (btn) btn.classList.add('active');
+      document.querySelectorAll('.gallery-item').forEach(item => {
+        if (cat === 'all' || item.dataset.cat === cat) {
+          item.classList.remove('hidden');
+        } else {
+          item.classList.add('hidden');
+        }
+      });
+    }
+
+    // ============================================================
+    // GALLERY LIGHTBOX — opens lightbox from gallery items
+    // Navigates only through currently visible (non-hidden) items
+    // ============================================================
+    function openGalleryLightbox(index) {
+      const allItems = document.querySelectorAll('.gallery-item');
+      const visibleItems = Array.from(allItems).filter(i => !i.classList.contains('hidden'));
+      const imgs = visibleItems.map(item => ({
+        src: item.querySelector('img').src,
+        caption: item.querySelector('img').alt
+      }));
+      const clickedSrc = document.querySelector(`.gallery-item[data-index="${index}"] img`).src;
+      const pos = imgs.findIndex(i => i.src === clickedSrc);
+      currentLightboxIndex = pos >= 0 ? pos : 0;
+      window._galleryMode = true;
+      window._galleryImgs = imgs;
+      document.getElementById('lightboxImg').src = imgs[currentLightboxIndex].src;
+      document.getElementById('lightboxCaption').textContent = imgs[currentLightboxIndex].caption;
+      document.getElementById('lightboxOverlay').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    // Patch lightboxNav to support gallery mode navigation
+    const _origLightboxNav = lightboxNav;
+    lightboxNav = function(dir) {
+      if (window._galleryMode && window._galleryImgs) {
+        currentLightboxIndex = (currentLightboxIndex + dir + window._galleryImgs.length) % window._galleryImgs.length;
+        document.getElementById('lightboxImg').src = window._galleryImgs[currentLightboxIndex].src;
+        document.getElementById('lightboxCaption').textContent = window._galleryImgs[currentLightboxIndex].caption;
+      } else {
+        _origLightboxNav(dir);
+      }
+    };
+
+    // Reset gallery mode on lightbox close
+    const _origCloseLightbox = closeLightbox;
+    closeLightbox = function() {
+      window._galleryMode = false;
+      _origCloseLightbox();
+    };
+
+    // Logo loads naturally — fallback text shown via onerror on the img tag above
+    // If you rename your logo file, update src="logo.png" in the nav HTML
+  </script>
+
+  <!-- ============================================================
+       LIGHTBOX OVERLAY — image zoom viewer
+       ============================================================ -->
+  <div class="lightbox-overlay" id="lightboxOverlay" onclick="closeLightboxOnBg(event)">
+    <div class="lightbox-inner">
+      <div class="lightbox-close" onclick="closeLightbox()">✕</div>
+      <div class="lightbox-nav lightbox-prev" onclick="lightboxNav(-1)">‹</div>
+      <img id="lightboxImg" src="" alt="" />
+      <div class="lightbox-nav lightbox-next" onclick="lightboxNav(1)">›</div>
+      <div class="lightbox-caption" id="lightboxCaption"></div>
+    </div>
+  </div>
+
+  <!-- ============================================================
+       STRUCTURED DATA FOR SEO (JSON-LD)
+       HOW TO UPDATE: Change name, phone, address, url fields
+       This helps Google show rich results for your business
+       ============================================================ -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "The Pinnacle Pane",
+    "description": "Authorised Supreme Griham channel partner offering premium uPVC doors and windows in Gurugram and Delhi NCR.",
+    "url": "https://thepinnaclepane.com",
+    "telephone": "+919711454647",
+    "email": "thepinnaclepane@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "D 212, First Floor, Sushant Shopping Arcade",
+      "addressLocality": "Gurugram",
+      "addressRegion": "Haryana",
+      "postalCode": "122009",
+      "addressCountry": "IN"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 28.4589,
+      "longitude": 77.0503
+    },
+    "openingHoursSpecification": [
+      {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+        "opens": "09:00",
+        "closes": "19:00"
+      }
+    ],
+    "areaServed": ["Gurugram", "Gurgaon", "Delhi", "Delhi NCR", "Faridabad", "Noida"],
+    "priceRange": "₹₹",
+    "brand": {
+      "@type": "Brand",
+      "name": "Supreme Griham"
+    },
+    "sameAs": [
+      "https://wa.me/919711454647"
+    ]
+  }
+  </script>
+
+</body>
+</html>
